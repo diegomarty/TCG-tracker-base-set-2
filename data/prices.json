@@ -10,7 +10,16 @@
     "avgSell": 41.6,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Alakazam-B21"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Alakazam-B21",
+   "idProduct": 273924,
+   "guide": {
+    "avg": 43.72,
+    "low": 12.95,
+    "trend": 51.41,
+    "avg1": 35.72,
+    "avg7": 48.67,
+    "avg30": 55
+   }
   },
   "base4-2": {
    "api": {
@@ -22,7 +31,16 @@
     "avgSell": 79.59,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Blastoise-B22"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Blastoise-B22",
+   "idProduct": 273925,
+   "guide": {
+    "avg": 88.25,
+    "low": 25,
+    "trend": 88.95,
+    "avg1": 119.99,
+    "avg7": 81.54,
+    "avg30": 113.51
+   }
   },
   "base4-3": {
    "api": {
@@ -34,7 +52,16 @@
     "avgSell": 20.9,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Chansey-B23"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Chansey-B23",
+   "idProduct": 273926,
+   "guide": {
+    "avg": 16.41,
+    "low": 2.8,
+    "trend": 10.44,
+    "avg1": 24.99,
+    "avg7": 15.36,
+    "avg30": 19.31
+   }
   },
   "base4-4": {
    "api": {
@@ -46,7 +73,16 @@
     "avgSell": 288.95,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charizard-B24"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charizard-B24",
+   "idProduct": 273927,
+   "guide": {
+    "avg": 509.98,
+    "low": 146.45,
+    "trend": 356.26,
+    "avg1": 386.23,
+    "avg7": 232.43,
+    "avg30": 362.64
+   }
   },
   "base4-5": {
    "api": {
@@ -58,7 +94,16 @@
     "avgSell": 17.77,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Clefable-B25"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Clefable-B25",
+   "idProduct": 273928,
+   "guide": {
+    "avg": 15.97,
+    "low": 5.25,
+    "trend": 22.7,
+    "avg1": 22.5,
+    "avg7": 19.26,
+    "avg30": 21.1
+   }
   },
   "base4-6": {
    "api": {
@@ -70,7 +115,16 @@
     "avgSell": 11.82,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Clefairy-B26"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Clefairy-B26",
+   "idProduct": 273929,
+   "guide": {
+    "avg": 18.76,
+    "low": 3.6,
+    "trend": 20.2,
+    "avg1": 17.5,
+    "avg7": 15.68,
+    "avg30": 14.53
+   }
   },
   "base4-7": {
    "api": {
@@ -82,7 +136,16 @@
     "avgSell": 30.2,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gyarados-B27"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gyarados-B27",
+   "idProduct": 273930,
+   "guide": {
+    "avg": 40.45,
+    "low": 6,
+    "trend": 33.47,
+    "avg1": 23.97,
+    "avg7": 46.54,
+    "avg30": 36.63
+   }
   },
   "base4-8": {
    "api": {
@@ -94,7 +157,16 @@
     "avgSell": 20.91,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Hitmonchan-B28"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Hitmonchan-B28",
+   "idProduct": 273931,
+   "guide": {
+    "avg": 32.17,
+    "low": 5,
+    "trend": 31.87,
+    "avg1": 24.99,
+    "avg7": 37.49,
+    "avg30": 23.72
+   }
   },
   "base4-9": {
    "api": {
@@ -106,7 +178,16 @@
     "avgSell": 13.21,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magneton-B29"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magneton-B29",
+   "idProduct": 273932,
+   "guide": {
+    "avg": 21.77,
+    "low": 6,
+    "trend": 18.51,
+    "avg1": 12,
+    "avg7": 24.74,
+    "avg30": 19.38
+   }
   },
   "base4-10": {
    "api": {
@@ -118,7 +199,16 @@
     "avgSell": 28.06,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Mewtwo-B210"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Mewtwo-B210",
+   "idProduct": 273933,
+   "guide": {
+    "avg": 44.65,
+    "low": 10,
+    "trend": 41.05,
+    "avg1": 28.99,
+    "avg7": 44.56,
+    "avg30": 45.56
+   }
   },
   "base4-11": {
    "api": {
@@ -130,7 +220,16 @@
     "avgSell": 20.92,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoking-B211"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoking-B211",
+   "idProduct": 273934,
+   "guide": {
+    "avg": 20,
+    "low": 6,
+    "trend": 21.32,
+    "avg1": 22.5,
+    "avg7": 19.64,
+    "avg30": 24.56
+   }
   },
   "base4-12": {
    "api": {
@@ -142,7 +241,16 @@
     "avgSell": 25.3,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoqueen-B212"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoqueen-B212",
+   "idProduct": 273935,
+   "guide": {
+    "avg": 17.38,
+    "low": 9,
+    "trend": 34.4,
+    "avg1": 34,
+    "avg7": 26.73,
+    "avg30": 31.7
+   }
   },
   "base4-13": {
    "api": {
@@ -154,7 +262,16 @@
     "avgSell": 22.87,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Ninetales-B213"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Ninetales-B213",
+   "idProduct": 273936,
+   "guide": {
+    "avg": 21.9,
+    "low": 8,
+    "trend": 64.38,
+    "avg1": 18,
+    "avg7": 21.85,
+    "avg30": 83.76
+   }
   },
   "base4-14": {
    "api": {
@@ -166,7 +283,16 @@
     "avgSell": 21.37,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgeot-B214"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgeot-B214",
+   "idProduct": 273937,
+   "guide": {
+    "avg": 23.63,
+    "low": 6,
+    "trend": 33.55,
+    "avg1": 72.99,
+    "avg7": 29.76,
+    "avg30": 29.39
+   }
   },
   "base4-15": {
    "api": {
@@ -178,7 +304,16 @@
     "avgSell": 12.65,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwrath-B215"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwrath-B215",
+   "idProduct": 273938,
+   "guide": {
+    "avg": 15.07,
+    "low": 3.97,
+    "trend": 10.97,
+    "avg1": 9.84,
+    "avg7": 13.89,
+    "avg30": 15.79
+   }
   },
   "base4-16": {
    "api": {
@@ -190,7 +325,16 @@
     "avgSell": 26.85,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Raichu-B216"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Raichu-B216",
+   "idProduct": 273939,
+   "guide": {
+    "avg": 50.67,
+    "low": 4.99,
+    "trend": 72.6,
+    "avg1": 300,
+    "avg7": 68.7,
+    "avg30": 36.19
+   }
   },
   "base4-17": {
    "api": {
@@ -202,7 +346,16 @@
     "avgSell": 25.18,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Scyther-B217"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Scyther-B217",
+   "idProduct": 273940,
+   "guide": {
+    "avg": 30.22,
+    "low": 9,
+    "trend": 22.49,
+    "avg1": 30.5,
+    "avg7": 28.38,
+    "avg30": 36.67
+   }
   },
   "base4-18": {
    "api": {
@@ -214,7 +367,16 @@
     "avgSell": 56.44,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venusaur-B218"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venusaur-B218",
+   "idProduct": 273941,
+   "guide": {
+    "avg": 72.63,
+    "low": 24.9,
+    "trend": 107.21,
+    "avg1": 150,
+    "avg7": 113.28,
+    "avg30": 68.06
+   }
   },
   "base4-19": {
    "api": {
@@ -226,7 +388,16 @@
     "avgSell": 11.38,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Wigglytuff-B219"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Wigglytuff-B219",
+   "idProduct": 273942,
+   "guide": {
+    "avg": 13,
+    "low": 3,
+    "trend": 13.99,
+    "avg1": 20.75,
+    "avg7": 12.97,
+    "avg30": 13.35
+   }
   },
   "base4-20": {
    "api": {
@@ -238,7 +409,16 @@
     "avgSell": 38.69,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Zapdos-B220"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Zapdos-B220",
+   "idProduct": 273943,
+   "guide": {
+    "avg": 43.11,
+    "low": 8,
+    "trend": 42.57,
+    "avg1": 49.99,
+    "avg7": 55.72,
+    "avg30": 37.39
+   }
   },
   "base4-21": {
    "api": {
@@ -250,7 +430,16 @@
     "avgSell": 1.7,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Beedrill-B221"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Beedrill-B221",
+   "idProduct": 273944,
+   "guide": {
+    "avg": 2.21,
+    "low": 0.35,
+    "trend": 2.75,
+    "avg1": 3,
+    "avg7": 2.57,
+    "avg30": 2.25
+   }
   },
   "base4-22": {
    "api": {
@@ -262,7 +451,16 @@
     "avgSell": 7.03,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dragonair-B222"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dragonair-B222",
+   "idProduct": 273945,
+   "guide": {
+    "avg": 7.64,
+    "low": 3.39,
+    "trend": 8.7,
+    "avg1": 7.25,
+    "avg7": 6.82,
+    "avg30": 8.35
+   }
   },
   "base4-23": {
    "api": {
@@ -274,7 +472,16 @@
     "avgSell": 4.7,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dugtrio-B223"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dugtrio-B223",
+   "idProduct": 273946,
+   "guide": {
+    "avg": 3.97,
+    "low": 0.3,
+    "trend": 3.55,
+    "avg1": 3.38,
+    "avg7": 4.07,
+    "avg30": 3.77
+   }
   },
   "base4-24": {
    "api": {
@@ -286,7 +493,16 @@
     "avgSell": 5.14,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Electabuzz-B224"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Electabuzz-B224",
+   "idProduct": 273947,
+   "guide": {
+    "avg": 3.98,
+    "low": 0.5,
+    "trend": 1.47,
+    "avg1": 6,
+    "avg7": 3.63,
+    "avg30": 5.16
+   }
   },
   "base4-25": {
    "api": {
@@ -298,7 +514,16 @@
     "avgSell": 3.85,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Electrode-B225"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Electrode-B225",
+   "idProduct": 273948,
+   "guide": {
+    "avg": 3.7,
+    "low": 0.98,
+    "trend": 3.28,
+    "avg1": 1,
+    "avg7": 3.33,
+    "avg30": 3.56
+   }
   },
   "base4-26": {
    "api": {
@@ -310,7 +535,16 @@
     "avgSell": 4.24,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kangaskhan-B226"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kangaskhan-B226",
+   "idProduct": 273949,
+   "guide": {
+    "avg": 3.42,
+    "low": 1,
+    "trend": 4.25,
+    "avg1": 3.49,
+    "avg7": 4.75,
+    "avg30": 3.85
+   }
   },
   "base4-27": {
    "api": {
@@ -322,7 +556,16 @@
     "avgSell": 4.35,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Mr-Mime-B227"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Mr-Mime-B227",
+   "idProduct": 273950,
+   "guide": {
+    "avg": 5.63,
+    "low": 1,
+    "trend": 5.32,
+    "avg1": 5.47,
+    "avg7": 5.8,
+    "avg30": 5.14
+   }
   },
   "base4-28": {
    "api": {
@@ -334,7 +577,16 @@
     "avgSell": 4.38,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgeotto-B228"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgeotto-B228",
+   "idProduct": 273951,
+   "guide": {
+    "avg": 4.94,
+    "low": 0.99,
+    "trend": 5.55,
+    "avg1": 6.99,
+    "avg7": 5.36,
+    "avg30": 5.56
+   }
   },
   "base4-29": {
    "api": {
@@ -346,7 +598,16 @@
     "avgSell": 4.05,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pinsir-B229"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pinsir-B229",
+   "idProduct": 273952,
+   "guide": {
+    "avg": 3.44,
+    "low": 0.39,
+    "trend": 3.34,
+    "avg1": 2.5,
+    "avg7": 3.93,
+    "avg30": 3.8
+   }
   },
   "base4-30": {
    "api": {
@@ -358,7 +619,16 @@
     "avgSell": 13.63,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Snorlax-B230"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Snorlax-B230",
+   "idProduct": 273953,
+   "guide": {
+    "avg": 25.87,
+    "low": 3.99,
+    "trend": 26.2,
+    "avg1": 70,
+    "avg7": 21.93,
+    "avg30": 18.08
+   }
   },
   "base4-31": {
    "api": {
@@ -370,7 +640,16 @@
     "avgSell": 4.28,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venomoth-B231"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venomoth-B231",
+   "idProduct": 273954,
+   "guide": {
+    "avg": 4.84,
+    "low": 0.98,
+    "trend": 4.88,
+    "avg1": 6,
+    "avg7": 6.36,
+    "avg30": 4.12
+   }
   },
   "base4-32": {
    "api": {
@@ -382,7 +661,16 @@
     "avgSell": 3.85,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Victreebel-B232"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Victreebel-B232",
+   "idProduct": 273955,
+   "guide": {
+    "avg": 4.55,
+    "low": 1,
+    "trend": 4.3,
+    "avg1": 2.95,
+    "avg7": 4.19,
+    "avg30": 3.57
+   }
   },
   "base4-33": {
    "api": {
@@ -394,7 +682,16 @@
     "avgSell": 3.13,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Arcanine-B233"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Arcanine-B233",
+   "idProduct": 273956,
+   "guide": {
+    "avg": 3.1,
+    "low": 0.3,
+    "trend": 2.8,
+    "avg1": 1.5,
+    "avg7": 3.1,
+    "avg30": 3.17
+   }
   },
   "base4-34": {
    "api": {
@@ -406,7 +703,16 @@
     "avgSell": 2.24,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Butterfree-B234"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Butterfree-B234",
+   "idProduct": 273957,
+   "guide": {
+    "avg": 2.05,
+    "low": 0.3,
+    "trend": 2.24,
+    "avg1": 2.41,
+    "avg7": 1.84,
+    "avg30": 2.25
+   }
   },
   "base4-35": {
    "api": {
@@ -418,7 +724,16 @@
     "avgSell": 2.24,
     "updatedAt": "2026/07/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charmeleon-B235"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charmeleon-B235",
+   "idProduct": 273958,
+   "guide": {
+    "avg": 2.32,
+    "low": 0.05,
+    "trend": 1.94,
+    "avg1": 3.82,
+    "avg7": 2.58,
+    "avg30": 2.63
+   }
   },
   "base4-36": {
    "api": {
@@ -430,7 +745,16 @@
     "avgSell": 2.03,
     "updatedAt": "2026/06/25"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dewgong-B236"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dewgong-B236",
+   "idProduct": 273959,
+   "guide": {
+    "avg": 1.84,
+    "low": 0.4,
+    "trend": 1.86,
+    "avg1": 1.19,
+    "avg7": 1.68,
+    "avg30": 1.81
+   }
   },
   "base4-37": {
    "api": {
@@ -442,7 +766,16 @@
     "avgSell": 1.95,
     "updatedAt": "2026/06/25"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dodrio-B237"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dodrio-B237",
+   "idProduct": 273960,
+   "guide": {
+    "avg": 1.78,
+    "low": 0.49,
+    "trend": 2.1,
+    "avg1": 4,
+    "avg7": 1.85,
+    "avg30": 1.64
+   }
   },
   "base4-38": {
    "api": {
@@ -454,7 +787,16 @@
     "avgSell": 1.15,
     "updatedAt": "2026/06/25"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dratini-B238"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dratini-B238",
+   "idProduct": 273961,
+   "guide": {
+    "avg": 1.63,
+    "low": 0.15,
+    "trend": 1.37,
+    "avg1": 0.39,
+    "avg7": 1.37,
+    "avg30": 1.72
+   }
   },
   "base4-39": {
    "api": {
@@ -466,7 +808,16 @@
     "avgSell": 1.71,
     "updatedAt": "2026/06/25"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Exeggutor-B239"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Exeggutor-B239",
+   "idProduct": 273962,
+   "guide": {
+    "avg": 1.91,
+    "low": 0.3,
+    "trend": 1.83,
+    "avg1": 3.44,
+    "avg7": 1.9,
+    "avg30": 2.08
+   }
   },
   "base4-40": {
    "api": {
@@ -478,7 +829,16 @@
     "avgSell": 0.55,
     "updatedAt": "2026/06/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Farfetchd-B240"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Farfetchd-B240",
+   "idProduct": 273963,
+   "guide": {
+    "avg": 0.79,
+    "low": 0.03,
+    "trend": 1.17,
+    "avg1": 2.94,
+    "avg7": 0.96,
+    "avg30": 0.82
+   }
   },
   "base4-41": {
    "api": {
@@ -490,7 +850,16 @@
     "avgSell": 1.14,
     "updatedAt": "2026/06/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fearow-B241"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fearow-B241",
+   "idProduct": 273964,
+   "guide": {
+    "avg": 1.31,
+    "low": 0.1,
+    "trend": 1.49,
+    "avg1": 2.07,
+    "avg7": 1.28,
+    "avg30": 1.32
+   }
   },
   "base4-42": {
    "api": {
@@ -502,7 +871,16 @@
     "avgSell": 1.91,
     "updatedAt": "2026/06/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Growlithe-B242"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Growlithe-B242",
+   "idProduct": 273965,
+   "guide": {
+    "avg": 1.42,
+    "low": 0.17,
+    "trend": 1.68,
+    "avg1": 1.75,
+    "avg7": 2.15,
+    "avg30": 1.57
+   }
   },
   "base4-43": {
    "api": {
@@ -514,7 +892,16 @@
     "avgSell": 1.18,
     "updatedAt": "2026/06/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Haunter-B243"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Haunter-B243",
+   "idProduct": 273966,
+   "guide": {
+    "avg": 1.35,
+    "low": 0.1,
+    "trend": 1.32,
+    "avg1": 1.15,
+    "avg7": 1.45,
+    "avg30": 1.2
+   }
   },
   "base4-44": {
    "api": {
@@ -526,7 +913,16 @@
     "avgSell": 2.65,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Ivysaur-B244"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Ivysaur-B244",
+   "idProduct": 273967,
+   "guide": {
+    "avg": 3.2,
+    "low": 0.5,
+    "trend": 3.11,
+    "avg1": 5,
+    "avg7": 3.52,
+    "avg30": 3.6
+   }
   },
   "base4-45": {
    "api": {
@@ -538,7 +934,16 @@
     "avgSell": 1.78,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Jynx-B245"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Jynx-B245",
+   "idProduct": 273968,
+   "guide": {
+    "avg": 1.09,
+    "low": 0.09,
+    "trend": 1.21,
+    "avg1": 0.5,
+    "avg7": 1.24,
+    "avg30": 0.98
+   }
   },
   "base4-46": {
    "api": {
@@ -550,7 +955,16 @@
     "avgSell": 1.03,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kadabra-B246"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kadabra-B246",
+   "idProduct": 273969,
+   "guide": {
+    "avg": 1.69,
+    "low": 0.02,
+    "trend": 2.44,
+    "avg1": 1.1,
+    "avg7": 1.64,
+    "avg30": 1.57
+   }
   },
   "base4-47": {
    "api": {
@@ -562,7 +976,16 @@
     "avgSell": 0.46,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kakuna-B247"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kakuna-B247",
+   "idProduct": 273970,
+   "guide": {
+    "avg": 0.77,
+    "low": 0.15,
+    "trend": 0.74,
+    "avg1": 1.12,
+    "avg7": 0.72,
+    "avg30": 0.8
+   }
   },
   "base4-48": {
    "api": {
@@ -574,7 +997,16 @@
     "avgSell": 1.83,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lickitung-B248"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lickitung-B248",
+   "idProduct": 273971,
+   "guide": {
+    "avg": 1.35,
+    "low": 0.23,
+    "trend": 1.47,
+    "avg1": 1.95,
+    "avg7": 1.32,
+    "avg30": 1.53
+   }
   },
   "base4-49": {
    "api": {
@@ -586,7 +1018,16 @@
     "avgSell": 0.63,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Machoke-B249"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Machoke-B249",
+   "idProduct": 273972,
+   "guide": {
+    "avg": 1.78,
+    "low": 0.1,
+    "trend": 0.43,
+    "avg1": 1.44,
+    "avg7": 0.81,
+    "avg30": 1.65
+   }
   },
   "base4-50": {
    "api": {
@@ -598,7 +1039,16 @@
     "avgSell": 1.06,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magikarp-B250"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magikarp-B250",
+   "idProduct": 273973,
+   "guide": {
+    "avg": 1.88,
+    "low": 0.2,
+    "trend": 2.06,
+    "avg1": 2.2,
+    "avg7": 2.36,
+    "avg30": 1.78
+   }
   },
   "base4-51": {
    "api": {
@@ -610,7 +1060,16 @@
     "avgSell": 1.23,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magmar-B251"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magmar-B251",
+   "idProduct": 273974,
+   "guide": {
+    "avg": 1.32,
+    "low": 0.09,
+    "trend": 0.02,
+    "avg1": 0.95,
+    "avg7": 0.73,
+    "avg30": 1.82
+   }
   },
   "base4-52": {
    "api": {
@@ -622,7 +1081,16 @@
     "avgSell": 1.79,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Marowak-B252"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Marowak-B252",
+   "idProduct": 273975,
+   "guide": {
+    "avg": 1.51,
+    "low": 0.2,
+    "trend": 1.73,
+    "avg1": 2.75,
+    "avg7": 1.89,
+    "avg30": 1.5
+   }
   },
   "base4-53": {
    "api": {
@@ -634,7 +1102,16 @@
     "avgSell": 1.03,
     "updatedAt": "2026/06/21"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidorina-B253"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidorina-B253",
+   "idProduct": 273976,
+   "guide": {
+    "avg": 0.85,
+    "low": 0.09,
+    "trend": 1,
+    "avg1": 2.99,
+    "avg7": 0.71,
+    "avg30": 0.86
+   }
   },
   "base4-54": {
    "api": {
@@ -646,7 +1123,16 @@
     "avgSell": 1.93,
     "updatedAt": "2026/03/11"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidorino-B254"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidorino-B254",
+   "idProduct": 273977,
+   "guide": {
+    "avg": 1.61,
+    "low": 0.3,
+    "trend": 1.94,
+    "avg1": 4.99,
+    "avg7": 1.53,
+    "avg30": 1.59
+   }
   },
   "base4-55": {
    "api": {
@@ -658,7 +1144,16 @@
     "avgSell": 1.6,
     "updatedAt": "2026/03/11"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Parasect-B255"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Parasect-B255",
+   "idProduct": 273978,
+   "guide": {
+    "avg": 1.52,
+    "low": 0.25,
+    "trend": 0.56,
+    "avg1": 0.99,
+    "avg7": 1.18,
+    "avg30": 1.81
+   }
   },
   "base4-56": {
    "api": {
@@ -670,7 +1165,16 @@
     "avgSell": 2.14,
     "updatedAt": "2026/03/07"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Persian-B256"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Persian-B256",
+   "idProduct": 273979,
+   "guide": {
+    "avg": 2.19,
+    "low": 0.4,
+    "trend": 2.41,
+    "avg1": 5.99,
+    "avg7": 2.5,
+    "avg30": 2.28
+   }
   },
   "base4-57": {
    "api": {
@@ -682,7 +1186,16 @@
     "avgSell": 0.85,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwhirl-B257"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwhirl-B257",
+   "idProduct": 273980,
+   "guide": {
+    "avg": 1.39,
+    "low": 0.05,
+    "trend": 1.11,
+    "avg1": 2.34,
+    "avg7": 1.45,
+    "avg30": 1.35
+   }
   },
   "base4-58": {
    "api": {
@@ -694,7 +1207,16 @@
     "avgSell": 0.93,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Raticate-B258"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Raticate-B258",
+   "idProduct": 273981,
+   "guide": {
+    "avg": 1.32,
+    "low": 0.05,
+    "trend": 1.48,
+    "avg1": 4.94,
+    "avg7": 1.31,
+    "avg30": 1.38
+   }
   },
   "base4-59": {
    "api": {
@@ -706,7 +1228,16 @@
     "avgSell": 1.39,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rhydon-B259"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rhydon-B259",
+   "idProduct": 273982,
+   "guide": {
+    "avg": 1.8,
+    "low": 0.35,
+    "trend": 1.51,
+    "avg1": 0.45,
+    "avg7": 1.06,
+    "avg30": 1.62
+   }
   },
   "base4-60": {
    "api": {
@@ -718,7 +1249,16 @@
     "avgSell": 0.58,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Seaking-B260"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Seaking-B260",
+   "idProduct": 273983,
+   "guide": {
+    "avg": 0.7,
+    "low": 0.05,
+    "trend": 0.52,
+    "avg1": 0.5,
+    "avg7": 0.56,
+    "avg30": 0.74
+   }
   },
   "base4-61": {
    "api": {
@@ -730,7 +1270,16 @@
     "avgSell": 0.5,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Seel-B261"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Seel-B261",
+   "idProduct": 273984,
+   "guide": {
+    "avg": 0.84,
+    "low": 0.02,
+    "trend": 0.83,
+    "avg1": 1.74,
+    "avg7": 0.85,
+    "avg30": 0.73
+   }
   },
   "base4-62": {
    "api": {
@@ -742,7 +1291,16 @@
     "avgSell": 2.9,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Tauros-B262"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Tauros-B262",
+   "idProduct": 273985,
+   "guide": {
+    "avg": 3.41,
+    "low": 0.8,
+    "trend": 2.93,
+    "avg1": 1.4,
+    "avg7": 3.69,
+    "avg30": 3.43
+   }
   },
   "base4-63": {
    "api": {
@@ -754,7 +1312,16 @@
     "avgSell": 3.27,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Wartortle-B263"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Wartortle-B263",
+   "idProduct": 273986,
+   "guide": {
+    "avg": 1.39,
+    "low": 0.15,
+    "trend": 2.29,
+    "avg1": 7.94,
+    "avg7": 2.36,
+    "avg30": 1.52
+   }
   },
   "base4-64": {
    "api": {
@@ -766,7 +1333,16 @@
     "avgSell": 0.9,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Weepinbell-B264"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Weepinbell-B264",
+   "idProduct": 273987,
+   "guide": {
+    "avg": 0.9,
+    "low": 0.09,
+    "trend": 1.06,
+    "avg1": 1.57,
+    "avg7": 1.01,
+    "avg30": 1.02
+   }
   },
   "base4-65": {
    "api": {
@@ -778,7 +1354,16 @@
     "avgSell": 0.33,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Abra-B265"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Abra-B265",
+   "idProduct": 273988,
+   "guide": {
+    "avg": 1.06,
+    "low": 0.02,
+    "trend": 0.96,
+    "avg1": 1.02,
+    "avg7": 0.88,
+    "avg30": 0.95
+   }
   },
   "base4-66": {
    "api": {
@@ -790,7 +1375,16 @@
     "avgSell": 0.3,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bellsprout-B266"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bellsprout-B266",
+   "idProduct": 273989,
+   "guide": {
+    "avg": 2.34,
+    "low": 0.02,
+    "trend": 1.68,
+    "avg1": 0.99,
+    "avg7": 0.65,
+    "avg30": 2.14
+   }
   },
   "base4-67": {
    "api": {
@@ -802,7 +1396,16 @@
     "avgSell": 1.85,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bulbasaur-B267"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bulbasaur-B267",
+   "idProduct": 273990,
+   "guide": {
+    "avg": 2.17,
+    "low": 0.3,
+    "trend": 2.04,
+    "avg1": 2.68,
+    "avg7": 2.02,
+    "avg30": 2.09
+   }
   },
   "base4-68": {
    "api": {
@@ -814,7 +1417,16 @@
     "avgSell": 0.49,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Caterpie-B268"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Caterpie-B268",
+   "idProduct": 273991,
+   "guide": {
+    "avg": 0.6,
+    "low": 0.05,
+    "trend": 1.54,
+    "avg1": 1.45,
+    "avg7": 1.32,
+    "avg30": 0.85
+   }
   },
   "base4-69": {
    "api": {
@@ -826,7 +1438,16 @@
     "avgSell": 1.36,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charmander-B269"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charmander-B269",
+   "idProduct": 273992,
+   "guide": {
+    "avg": 1.79,
+    "low": 0.19,
+    "trend": 1.72,
+    "avg1": 1.73,
+    "avg7": 1.54,
+    "avg30": 1.77
+   }
   },
   "base4-70": {
    "api": {
@@ -838,7 +1459,16 @@
     "avgSell": 1.12,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Cubone-B270"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Cubone-B270",
+   "idProduct": 273993,
+   "guide": {
+    "avg": 2.14,
+    "low": 0.04,
+    "trend": 2,
+    "avg1": 2.48,
+    "avg7": 1.49,
+    "avg30": 2.01
+   }
   },
   "base4-71": {
    "api": {
@@ -850,7 +1480,16 @@
     "avgSell": 0.31,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Diglett-B271"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Diglett-B271",
+   "idProduct": 273994,
+   "guide": {
+    "avg": 0.4,
+    "low": 0.02,
+    "trend": 0.35,
+    "avg1": 0.52,
+    "avg7": 0.43,
+    "avg30": 0.38
+   }
   },
   "base4-72": {
    "api": {
@@ -862,7 +1501,16 @@
     "avgSell": 0.32,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Doduo-B272"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Doduo-B272",
+   "idProduct": 273995,
+   "guide": {
+    "avg": 0.44,
+    "low": 0.02,
+    "trend": 0.65,
+    "avg1": 1.19,
+    "avg7": 0.49,
+    "avg30": 0.44
+   }
   },
   "base4-73": {
    "api": {
@@ -874,7 +1522,16 @@
     "avgSell": 0.47,
     "updatedAt": "2026/02/22"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Drowzee-B273"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Drowzee-B273",
+   "idProduct": 273996,
+   "guide": {
+    "avg": 0.65,
+    "low": 0.02,
+    "trend": 0.64,
+    "avg1": 1.05,
+    "avg7": 0.58,
+    "avg30": 0.64
+   }
   },
   "base4-74": {
    "api": {
@@ -886,7 +1543,16 @@
     "avgSell": 0.65,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Exeggcute-B274"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Exeggcute-B274",
+   "idProduct": 273997,
+   "guide": {
+    "avg": 0.75,
+    "low": 0.05,
+    "trend": 0.75,
+    "avg1": 1.44,
+    "avg7": 0.54,
+    "avg30": 0.68
+   }
   },
   "base4-75": {
    "api": {
@@ -898,7 +1564,16 @@
     "avgSell": 0.44,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gastly-B275"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gastly-B275",
+   "idProduct": 273998,
+   "guide": {
+    "avg": 0.7,
+    "low": 0.05,
+    "trend": 0.74,
+    "avg1": 0.92,
+    "avg7": 0.8,
+    "avg30": 0.7
+   }
   },
   "base4-76": {
    "api": {
@@ -910,7 +1585,16 @@
     "avgSell": 0.27,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Goldeen-B276"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Goldeen-B276",
+   "idProduct": 273999,
+   "guide": {
+    "avg": 0.39,
+    "low": 0.03,
+    "trend": 0.3,
+    "avg1": 0.59,
+    "avg7": 0.43,
+    "avg30": 0.37
+   }
   },
   "base4-77": {
    "api": {
@@ -922,7 +1606,16 @@
     "avgSell": 0.65,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Jigglypuff-B277"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Jigglypuff-B277",
+   "idProduct": 274000,
+   "guide": {
+    "avg": 0.69,
+    "low": 0.04,
+    "trend": 0.65,
+    "avg1": 0.53,
+    "avg7": 0.65,
+    "avg30": 0.64
+   }
   },
   "base4-78": {
    "api": {
@@ -934,7 +1627,16 @@
     "avgSell": 0.29,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Machop-B278"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Machop-B278",
+   "idProduct": 274001,
+   "guide": {
+    "avg": 0.53,
+    "low": 0.02,
+    "trend": 0.71,
+    "avg1": 0.43,
+    "avg7": 0.7,
+    "avg30": 0.51
+   }
   },
   "base4-79": {
    "api": {
@@ -946,7 +1648,16 @@
     "avgSell": 0.38,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magnemite-B279"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magnemite-B279",
+   "idProduct": 274002,
+   "guide": {
+    "avg": 0.69,
+    "low": 0.02,
+    "trend": 0.69,
+    "avg1": 0.65,
+    "avg7": 0.46,
+    "avg30": 0.81
+   }
   },
   "base4-80": {
    "api": {
@@ -958,7 +1669,16 @@
     "avgSell": 0.44,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Meowth-B280"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Meowth-B280",
+   "idProduct": 274003,
+   "guide": {
+    "avg": 0.62,
+    "low": 0.09,
+    "trend": 0.63,
+    "avg1": 1.15,
+    "avg7": 0.73,
+    "avg30": 0.67
+   }
   },
   "base4-81": {
    "api": {
@@ -970,7 +1690,16 @@
     "avgSell": 0.55,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Metapod-B281"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Metapod-B281",
+   "idProduct": 274004,
+   "guide": {
+    "avg": 0.73,
+    "low": 0.09,
+    "trend": 1.03,
+    "avg1": 1.49,
+    "avg7": 0.88,
+    "avg30": 0.76
+   }
   },
   "base4-82": {
    "api": {
@@ -982,7 +1711,16 @@
     "avgSell": 0.33,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoran-B282"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoran-B282",
+   "idProduct": 274005,
+   "guide": {
+    "avg": 0.62,
+    "low": 0.02,
+    "trend": 0.76,
+    "avg1": 1.49,
+    "avg7": 0.62,
+    "avg30": 0.58
+   }
   },
   "base4-83": {
    "api": {
@@ -994,7 +1732,16 @@
     "avgSell": 0.44,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoran-M-B283"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoran-M-B283",
+   "idProduct": 274006,
+   "guide": {
+    "avg": 0.66,
+    "low": 0.02,
+    "trend": 0.82,
+    "avg1": 1.49,
+    "avg7": 0.53,
+    "avg30": 0.6
+   }
   },
   "base4-84": {
    "api": {
@@ -1006,7 +1753,16 @@
     "avgSell": 1.29,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Onix-B284"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Onix-B284",
+   "idProduct": 274007,
+   "guide": {
+    "avg": 1.23,
+    "low": 0.1,
+    "trend": 0.02,
+    "avg1": 0.85,
+    "avg7": 1.41,
+    "avg30": 5.71
+   }
   },
   "base4-85": {
    "api": {
@@ -1018,7 +1774,16 @@
     "avgSell": 0.64,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Paras-B285"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Paras-B285",
+   "idProduct": 274008,
+   "guide": {
+    "avg": 0.72,
+    "low": 0.06,
+    "trend": 0.76,
+    "avg1": 1.22,
+    "avg7": 0.71,
+    "avg30": 0.76
+   }
   },
   "base4-86": {
    "api": {
@@ -1030,7 +1795,16 @@
     "avgSell": 0.67,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgey-B286"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgey-B286",
+   "idProduct": 274009,
+   "guide": {
+    "avg": 0.9,
+    "low": 0.2,
+    "trend": 1.26,
+    "avg1": 1.96,
+    "avg7": 0.92,
+    "avg30": 0.83
+   }
   },
   "base4-87": {
    "api": {
@@ -1042,7 +1816,16 @@
     "avgSell": 2.41,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pikachu-B287"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pikachu-B287",
+   "idProduct": 274010,
+   "guide": {
+    "avg": 2.75,
+    "low": 0.5,
+    "trend": 4.37,
+    "avg1": 2.87,
+    "avg7": 3.09,
+    "avg30": 2.78
+   }
   },
   "base4-88": {
    "api": {
@@ -1054,7 +1837,16 @@
     "avgSell": 0.4,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwag-B288"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwag-B288",
+   "idProduct": 274011,
+   "guide": {
+    "avg": 0.51,
+    "low": 0.02,
+    "trend": 0.52,
+    "avg1": 0.82,
+    "avg7": 0.53,
+    "avg30": 0.48
+   }
   },
   "base4-89": {
    "api": {
@@ -1066,7 +1858,16 @@
     "avgSell": 0.45,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rattata-B289"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rattata-B289",
+   "idProduct": 274012,
+   "guide": {
+    "avg": 0.67,
+    "low": 0.02,
+    "trend": 0.88,
+    "avg1": 0.58,
+    "avg7": 0.68,
+    "avg30": 0.59
+   }
   },
   "base4-90": {
    "api": {
@@ -1078,7 +1879,16 @@
     "avgSell": 0.67,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rhyhorn-B290"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rhyhorn-B290",
+   "idProduct": 274013,
+   "guide": {
+    "avg": 0.87,
+    "low": 0.02,
+    "trend": 0.83,
+    "avg1": 1.22,
+    "avg7": 0.8,
+    "avg30": 0.87
+   }
   },
   "base4-91": {
    "api": {
@@ -1090,7 +1900,16 @@
     "avgSell": 0.46,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Sandshrew-B291"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Sandshrew-B291",
+   "idProduct": 274014,
+   "guide": {
+    "avg": 0.5,
+    "low": 0.02,
+    "trend": 0.63,
+    "avg1": 1.49,
+    "avg7": 0.48,
+    "avg30": 0.51
+   }
   },
   "base4-92": {
    "api": {
@@ -1102,7 +1921,16 @@
     "avgSell": 0.55,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Spearow-B292"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Spearow-B292",
+   "idProduct": 274015,
+   "guide": {
+    "avg": 0.64,
+    "low": 0.05,
+    "trend": 0.56,
+    "avg1": 1.07,
+    "avg7": 0.61,
+    "avg30": 0.77
+   }
   },
   "base4-93": {
    "api": {
@@ -1114,7 +1942,16 @@
     "avgSell": 0.94,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Squirtle-B293"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Squirtle-B293",
+   "idProduct": 274016,
+   "guide": {
+    "avg": 4.75,
+    "low": 0.15,
+    "trend": 13.56,
+    "avg1": 2.7,
+    "avg7": 3.4,
+    "avg30": 3.96
+   }
   },
   "base4-94": {
    "api": {
@@ -1126,7 +1963,16 @@
     "avgSell": 0.45,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Starmie-B294"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Starmie-B294",
+   "idProduct": 274017,
+   "guide": {
+    "avg": 0.78,
+    "low": 0.02,
+    "trend": 0.77,
+    "avg1": 0.85,
+    "avg7": 0.66,
+    "avg30": 0.67
+   }
   },
   "base4-95": {
    "api": {
@@ -1138,7 +1984,16 @@
     "avgSell": 0.23,
     "updatedAt": "2026/02/01"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Staryu-B295"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Staryu-B295",
+   "idProduct": 274018,
+   "guide": {
+    "avg": 0.33,
+    "low": 0.04,
+    "trend": 0.53,
+    "avg1": 0.88,
+    "avg7": 0.54,
+    "avg30": 0.35
+   }
   },
   "base4-96": {
    "api": {
@@ -1150,7 +2005,16 @@
     "avgSell": 0.21,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Tangela-B296"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Tangela-B296",
+   "idProduct": 274019,
+   "guide": {
+    "avg": 0.54,
+    "low": 0.02,
+    "trend": 0.76,
+    "avg1": 1.99,
+    "avg7": 0.6,
+    "avg30": 0.54
+   }
   },
   "base4-97": {
    "api": {
@@ -1162,7 +2026,16 @@
     "avgSell": 0.5,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venonat-B297"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venonat-B297",
+   "idProduct": 274020,
+   "guide": {
+    "avg": 0.56,
+    "low": 0.05,
+    "trend": 0.61,
+    "avg1": 0.29,
+    "avg7": 0.71,
+    "avg30": 0.56
+   }
   },
   "base4-98": {
    "api": {
@@ -1174,7 +2047,16 @@
     "avgSell": 0.3,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Voltorb-B298"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Voltorb-B298",
+   "idProduct": 274021,
+   "guide": {
+    "avg": 0.86,
+    "low": 0.05,
+    "trend": 0.99,
+    "avg1": 1.32,
+    "avg7": 0.83,
+    "avg30": 0.83
+   }
   },
   "base4-99": {
    "api": {
@@ -1186,7 +2068,16 @@
     "avgSell": 0.77,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Vulpix-B299"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Vulpix-B299",
+   "idProduct": 274022,
+   "guide": {
+    "avg": 0.85,
+    "low": 0.2,
+    "trend": 0.96,
+    "avg1": 2.49,
+    "avg7": 0.88,
+    "avg30": 0.9
+   }
   },
   "base4-100": {
    "api": {
@@ -1198,7 +2089,16 @@
     "avgSell": 0.15,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Weedle-B2100"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Weedle-B2100",
+   "idProduct": 274023,
+   "guide": {
+    "avg": 0.27,
+    "low": 0.02,
+    "trend": 0.28,
+    "avg1": 0.59,
+    "avg7": 0.23,
+    "avg30": 0.26
+   }
   },
   "base4-101": {
    "api": {
@@ -1210,7 +2110,16 @@
     "avgSell": 3.35,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Computer-Search-B2101"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Computer-Search-B2101",
+   "idProduct": 274024,
+   "guide": {
+    "avg": 1.94,
+    "low": 0.5,
+    "trend": 0.81,
+    "avg1": 3,
+    "avg7": 2.11,
+    "avg30": 4.59
+   }
   },
   "base4-102": {
    "api": {
@@ -1222,7 +2131,16 @@
     "avgSell": 4.15,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Imposter-Professor-Oak-B2102"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Imposter-Professor-Oak-B2102",
+   "idProduct": 274025,
+   "guide": {
+    "avg": 2.99,
+    "low": 0.99,
+    "trend": 2.43,
+    "avg1": 1.81,
+    "avg7": 2.81,
+    "avg30": 2.76
+   }
   },
   "base4-103": {
    "api": {
@@ -1234,7 +2152,16 @@
     "avgSell": 5.69,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Item-Finder-B2103"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Item-Finder-B2103",
+   "idProduct": 274026,
+   "guide": {
+    "avg": 9.76,
+    "low": 4,
+    "trend": 13.19,
+    "avg1": 15,
+    "avg7": 12.8,
+    "avg30": 11.62
+   }
   },
   "base4-104": {
    "api": {
@@ -1246,7 +2173,16 @@
     "avgSell": 3.33,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lass-B2104"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lass-B2104",
+   "idProduct": 274027,
+   "guide": {
+    "avg": 3.04,
+    "low": 0.75,
+    "trend": 2.75,
+    "avg1": 2.49,
+    "avg7": 3.37,
+    "avg30": 3.06
+   }
   },
   "base4-105": {
    "api": {
@@ -1258,7 +2194,16 @@
     "avgSell": 4.19,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Breeder-B2105"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Breeder-B2105",
+   "idProduct": 274028,
+   "guide": {
+    "avg": 5.42,
+    "low": 1,
+    "trend": 5.06,
+    "avg1": 5.99,
+    "avg7": 5.75,
+    "avg30": 4.7
+   }
   },
   "base4-106": {
    "api": {
@@ -1270,7 +2215,16 @@
     "avgSell": 3.64,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Trader-B2106"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Trader-B2106",
+   "idProduct": 274029,
+   "guide": {
+    "avg": 3.87,
+    "low": 1,
+    "trend": 3.58,
+    "avg1": 4.25,
+    "avg7": 4.12,
+    "avg30": 3.7
+   }
   },
   "base4-107": {
    "api": {
@@ -1282,7 +2236,16 @@
     "avgSell": 4.9,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Scoop-Up-B2107"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Scoop-Up-B2107",
+   "idProduct": 274030,
+   "guide": {
+    "avg": 7.01,
+    "low": 2.99,
+    "trend": 7.34,
+    "avg1": 6.5,
+    "avg7": 8,
+    "avg30": 6.12
+   }
   },
   "base4-108": {
    "api": {
@@ -1294,7 +2257,16 @@
     "avgSell": 2.28,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Super-Energy-Removal-B2108"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Super-Energy-Removal-B2108",
+   "idProduct": 274031,
+   "guide": {
+    "avg": 2.03,
+    "low": 0.5,
+    "trend": 2.43,
+    "avg1": 2.5,
+    "avg7": 1.8,
+    "avg30": 2.16
+   }
   },
   "base4-109": {
    "api": {
@@ -1306,7 +2278,16 @@
     "avgSell": 0.31,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Defender-B2109"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Defender-B2109",
+   "idProduct": 274032,
+   "guide": {
+    "avg": 0.52,
+    "low": 0.02,
+    "trend": 0.63,
+    "avg1": 0.67,
+    "avg7": 0.6,
+    "avg30": 0.54
+   }
   },
   "base4-110": {
    "api": {
@@ -1318,7 +2299,16 @@
     "avgSell": 0.24,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Energy-Retrieval-B2110"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Energy-Retrieval-B2110",
+   "idProduct": 274033,
+   "guide": {
+    "avg": 0.62,
+    "low": 0.02,
+    "trend": 0.63,
+    "avg1": 0.65,
+    "avg7": 0.59,
+    "avg30": 0.5
+   }
   },
   "base4-111": {
    "api": {
@@ -1330,7 +2320,16 @@
     "avgSell": 0.29,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Full-Heal-B2111"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Full-Heal-B2111",
+   "idProduct": 274034,
+   "guide": {
+    "avg": 0.58,
+    "low": 0.02,
+    "trend": 0.64,
+    "avg1": 0.75,
+    "avg7": 0.56,
+    "avg30": 0.55
+   }
   },
   "base4-112": {
    "api": {
@@ -1342,7 +2341,16 @@
     "avgSell": 0.9,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Maintenance-B2112"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Maintenance-B2112",
+   "idProduct": 274035,
+   "guide": {
+    "avg": 1.07,
+    "low": 0.1,
+    "trend": 0.02,
+    "avg1": 0.75,
+    "avg7": 1.24,
+    "avg30": 3.97
+   }
   },
   "base4-113": {
    "api": {
@@ -1354,7 +2362,16 @@
     "avgSell": 0.32,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/PlusPower-B2113"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/PlusPower-B2113",
+   "idProduct": 274036,
+   "guide": {
+    "avg": 0.49,
+    "low": 0.02,
+    "trend": 0.44,
+    "avg1": 0.66,
+    "avg7": 0.45,
+    "avg30": 0.51
+   }
   },
   "base4-114": {
    "api": {
@@ -1366,7 +2383,16 @@
     "avgSell": 0.73,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Center-B2114"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Center-B2114",
+   "idProduct": 274037,
+   "guide": {
+    "avg": 1.29,
+    "low": 0.25,
+    "trend": 1.1,
+    "avg1": 1.85,
+    "avg7": 1.09,
+    "avg30": 1.39
+   }
   },
   "base4-115": {
    "api": {
@@ -1378,7 +2404,16 @@
     "avgSell": 0.42,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokedex-B2115"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokedex-B2115",
+   "idProduct": 274038,
+   "guide": {
+    "avg": 0.67,
+    "low": 0.09,
+    "trend": 0.59,
+    "avg1": 0.5,
+    "avg7": 0.58,
+    "avg30": 0.67
+   }
   },
   "base4-116": {
    "api": {
@@ -1390,7 +2425,16 @@
     "avgSell": 0.83,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Professor-Oak-B2116"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Professor-Oak-B2116",
+   "idProduct": 274039,
+   "guide": {
+    "avg": 2.01,
+    "low": 0.19,
+    "trend": 1.73,
+    "avg1": 0.99,
+    "avg7": 1.84,
+    "avg30": 1.67
+   }
   },
   "base4-117": {
    "api": {
@@ -1402,7 +2446,16 @@
     "avgSell": 0.16,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Super-Potion-B2117"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Super-Potion-B2117",
+   "idProduct": 274040,
+   "guide": {
+    "avg": 0.28,
+    "low": 0.02,
+    "trend": 0.28,
+    "avg1": 0.69,
+    "avg7": 0.42,
+    "avg30": 0.41
+   }
   },
   "base4-118": {
    "api": {
@@ -1414,7 +2467,16 @@
     "avgSell": 0.17,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bill-B2118"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bill-B2118",
+   "idProduct": 274041,
+   "guide": {
+    "avg": 0.22,
+    "low": 0.02,
+    "trend": 0.22,
+    "avg1": 0.25,
+    "avg7": 0.19,
+    "avg30": 0.21
+   }
   },
   "base4-119": {
    "api": {
@@ -1426,7 +2488,16 @@
     "avgSell": 0.13,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Energy-Removal-B2119"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Energy-Removal-B2119",
+   "idProduct": 274042,
+   "guide": {
+    "avg": 0.24,
+    "low": 0.02,
+    "trend": 0.43,
+    "avg1": 0.31,
+    "avg7": 0.26,
+    "avg30": 0.23
+   }
   },
   "base4-120": {
    "api": {
@@ -1438,7 +2509,16 @@
     "avgSell": 0.1,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gust-of-Wind-B2120"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gust-of-Wind-B2120",
+   "idProduct": 274043,
+   "guide": {
+    "avg": 0.19,
+    "low": 0.02,
+    "trend": 0.16,
+    "avg1": 0.28,
+    "avg7": 0.18,
+    "avg30": 0.2
+   }
   },
   "base4-121": {
    "api": {
@@ -1450,7 +2530,16 @@
     "avgSell": 0.16,
     "updatedAt": "2026/01/16"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poke-Ball-B2121"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poke-Ball-B2121",
+   "idProduct": 274044,
+   "guide": {
+    "avg": 0.37,
+    "low": 0.02,
+    "trend": 0.32,
+    "avg1": 0.38,
+    "avg7": 0.39,
+    "avg30": 0.35
+   }
   },
   "base4-122": {
    "api": {
@@ -1462,7 +2551,16 @@
     "avgSell": 0.08,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Potion-B2122"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Potion-B2122",
+   "idProduct": 274045,
+   "guide": {
+    "avg": 0.16,
+    "low": 0.02,
+    "trend": 0.1,
+    "avg1": 0.17,
+    "avg7": 0.11,
+    "avg30": 0.17
+   }
   },
   "base4-123": {
    "api": {
@@ -1474,7 +2572,16 @@
     "avgSell": 0.13,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Switch-B2123"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Switch-B2123",
+   "idProduct": 274046,
+   "guide": {
+    "avg": 0.21,
+    "low": 0.02,
+    "trend": 0.19,
+    "avg1": 0.27,
+    "avg7": 0.14,
+    "avg30": 0.2
+   }
   },
   "base4-124": {
    "api": {
@@ -1486,7 +2593,16 @@
     "avgSell": 2.82,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Double-Colorless-Energy-B2124"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Double-Colorless-Energy-B2124",
+   "idProduct": 274047,
+   "guide": {
+    "avg": 3.18,
+    "low": 0.5,
+    "trend": 2.94,
+    "avg1": 0.49,
+    "avg7": 3.17,
+    "avg30": 2.8
+   }
   },
   "base4-125": {
    "api": {
@@ -1498,7 +2614,16 @@
     "avgSell": 0.12,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fighting-Energy-B2125"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fighting-Energy-B2125",
+   "idProduct": 274048,
+   "guide": {
+    "avg": 0.31,
+    "low": 0.02,
+    "trend": 0.24,
+    "avg1": 0.16,
+    "avg7": 0.12,
+    "avg30": 0.26
+   }
   },
   "base4-126": {
    "api": {
@@ -1510,7 +2635,16 @@
     "avgSell": 0.23,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fire-Energy-B2126"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fire-Energy-B2126",
+   "idProduct": 274049,
+   "guide": {
+    "avg": 0.41,
+    "low": 0.02,
+    "trend": 0.32,
+    "avg1": 0.21,
+    "avg7": 0.29,
+    "avg30": 0.29
+   }
   },
   "base4-127": {
    "api": {
@@ -1522,7 +2656,16 @@
     "avgSell": 0.1,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Grass-Energy-B2127"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Grass-Energy-B2127",
+   "idProduct": 274050,
+   "guide": {
+    "avg": 0.24,
+    "low": 0.02,
+    "trend": 0.16,
+    "avg1": 0.18,
+    "avg7": 0.13,
+    "avg30": 0.21
+   }
   },
   "base4-128": {
    "api": {
@@ -1534,7 +2677,16 @@
     "avgSell": 0.08,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lightning-Energy-B2128"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lightning-Energy-B2128",
+   "idProduct": 274051,
+   "guide": {
+    "avg": 0.34,
+    "low": 0.02,
+    "trend": 0.39,
+    "avg1": 0.18,
+    "avg7": 0.24,
+    "avg30": 0.26
+   }
   },
   "base4-129": {
    "api": {
@@ -1546,7 +2698,16 @@
     "avgSell": 0.12,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Psychic-Energy-B2129"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Psychic-Energy-B2129",
+   "idProduct": 274052,
+   "guide": {
+    "avg": 0.18,
+    "low": 0.02,
+    "trend": 0.19,
+    "avg1": 0.18,
+    "avg7": 0.14,
+    "avg30": 0.18
+   }
   },
   "base4-130": {
    "api": {
@@ -1558,8 +2719,19 @@
     "avgSell": 0.07,
     "updatedAt": "2025/12/28"
    },
-   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Water-Energy-B2130"
+   "url": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Water-Energy-B2130",
+   "idProduct": 274053,
+   "guide": {
+    "avg": 0.21,
+    "low": 0.02,
+    "trend": 0.21,
+    "avg1": 0.16,
+    "avg7": 0.14,
+    "avg30": 0.18
+   }
   }
  },
- "apiUpdatedAt": "2026-11-14T07:50:00+00:00"
+ "apiUpdatedAt": "2026-11-14T08:05:34+00:00",
+ "guideCreatedAt": "2026-11-13T02:44:11+0100",
+ "guideUpdatedAt": "2026-11-14T08:05:11+00:00"
 }
