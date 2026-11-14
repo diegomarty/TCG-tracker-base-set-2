@@ -1,0 +1,9 @@
+name: Sonda de fuentes de precios
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/probe_sources.py
