@@ -328,6 +328,61 @@ def scrape_card(sess: Session, url: str, language: int, debug: bool, cid: str) -
 
 
 # --------------------------------------------------------------------------- #
+# Guía de precios OFICIAL de Cardmarket (pública, se regenera a diario)
+# --------------------------------------------------------------------------- #
+IDS_FILE = ROOT / "data" / "cardmarket_ids.json"
+PRICE_GUIDE_URL = "https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_6.json"  # 6 = Pokémon
+GUIDE_FIELDS = ("avg", "low", "trend", "avg1", "avg7", "avg30")
+
+
+def resolve_product_ids(sess: Session, cards: list[dict]) -> dict:
+    """idProduct de Cardmarket de cada carta, vía la API pública de TCGdex (se cachea en el repo)."""
+    ids = load_json(IDS_FILE, {})
+    missing = [c for c in cards if c["id"] not in ids]
+    if missing:
+        log(f"TCGdex: buscando idProduct de {len(missing)} cartas")
+    for c in missing:
+        try:
+            r = sess.s.get(f"https://api.tcgdex.net/v2/en/cards/{c['id']}", headers=HEADERS, timeout=30)
+            if r.status_code == 200:
+                pid = ((r.json().get("pricing") or {}).get("cardmarket") or {}).get("idProduct")
+                if pid:
+                    ids[c["id"]] = pid
+        except Exception as e:
+            log(f"  ! TCGdex {c['id']}: {e}")
+        time.sleep(0.3)
+    save_json(IDS_FILE, dict(sorted(ids.items(), key=lambda kv: int(kv[0].split("-")[1]))))
+    log(f"idProduct conocidos: {len(ids)}/{len(cards)}")
+    return ids
+
+
+def fetch_price_guide(sess: Session, cards: list[dict], prices: dict) -> int:
+    ids = resolve_product_ids(sess, cards)
+    try:
+        r = sess.s.get(PRICE_GUIDE_URL, headers=HEADERS, timeout=120)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        log(f"No pude descargar la guía de precios de Cardmarket: {e}")
+        return 0
+    guide = {g["idProduct"]: g for g in data.get("priceGuides", [])}
+    created = data.get("createdAt")
+    n = 0
+    for c in cards:
+        g = guide.get(ids.get(c["id"]))
+        if not g:
+            continue
+        entry = prices["cards"].setdefault(c["id"], {})
+        entry["idProduct"] = ids[c["id"]]
+        entry["guide"] = {k: g.get(k) for k in GUIDE_FIELDS}
+        n += 1
+    prices["guideCreatedAt"] = created
+    prices["guideUpdatedAt"] = now_iso()
+    log(f"Guía de precios oficial de Cardmarket ({created}): {n}/{len(cards)} cartas")
+    return n
+
+
+# --------------------------------------------------------------------------- #
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-age", type=float, default=6, help="días antes de volver a pedir una carta (0 = todas)")
@@ -337,7 +392,7 @@ def main() -> int:
     ap.add_argument("--only", default="", help="números de carta separados por comas")
     ap.add_argument("--limit", type=int, default=0, help="máximo de cartas a pedir en esta ejecución")
     ap.add_argument("--time-budget", type=float, default=100, help="minutos máximos de ejecución")
-    ap.add_argument("--no-scrape", action="store_true", help="solo datos de pokemontcg.io")
+    ap.add_argument("--no-scrape", action="store_true", help="no visitar páginas de Cardmarket (solo guía oficial + APIs)")
     ap.add_argument("--debug", action="store_true", help="guarda el HTML en .debug/")
     args = ap.parse_args()
 
@@ -348,7 +403,11 @@ def main() -> int:
     urls = load_json(URLS_FILE, {})
     sess = Session(args.min_delay, args.max_delay)
 
-    # 1) Respaldo: tendencias de Cardmarket vía pokemontcg.io (una sola petición)
+    # 1) Guía de precios oficial de Cardmarket (diaria, todas las cartas, sin scraping)
+    fetch_price_guide(sess, cards, prices)
+    save_json(PRICES_FILE, prices)
+
+    # 2) Respaldo: tendencias de Cardmarket vía pokemontcg.io (una sola petición)
     api = fetch_api_prices(sess)
     for card in cards:
         cm = api.get(card["id"]) or {}

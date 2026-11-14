@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 git pull --rebase --autostash
 python3 -m pip install -q -r scripts/requirements.txt
 python3 scripts/fetch_prices.py "$@"
-git add data/prices.json data/cardmarket_urls.json
+git add data/prices.json data/cardmarket_urls.json data/cardmarket_ids.json
 if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
 git commit -m "Actualizar precios de Cardmarket (local)"
 git push

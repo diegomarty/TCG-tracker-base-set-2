@@ -85,7 +85,8 @@
     if (exact != null) return { value: exact, approx: false };
     if (cond === "ex" && cm.exPlusFrom != null) return { value: cm.exPlusFrom, approx: true };
     const api = p.api || {};
-    const t = cm.trend ?? api.trend ?? api.avg30 ?? (cond === "ex" ? api.lowExPlus : null);
+    const g = p.guide || {};
+    const t = g.trend ?? cm.trend ?? api.trend ?? g.avg30 ?? api.avg30;
     return t != null ? { value: t, approx: true } : null;
   }
 
@@ -204,13 +205,18 @@
     $("#grayState").textContent = s.grayscale ? "Activado" : "Desactivado";
   }
 
+  function fmtDate(iso) {
+    const d = new Date(String(iso).replace(/([+-]\d{2})(\d{2})$/, "$1:$2"));
+    return isNaN(d) ? String(iso).slice(0, 10) : d.toLocaleDateString("es-ES");
+  }
   function renderPricesInfo() {
     const p = state.prices;
     const parts = [];
+    if (p.guideCreatedAt) parts.push(`Guía oficial de precios de Cardmarket del ${fmtDate(p.guideCreatedAt)} (se actualiza a diario).`);
     if (p.updatedAt) parts.push(`Precios Cardmarket (${p.language === 1 || !p.language ? "inglés" : "idioma " + p.language}) actualizados el ${new Date(p.updatedAt).toLocaleDateString("es-ES")}.`);
-    else if (p.apiUpdatedAt) parts.push(`Solo hay precios de tendencia de Cardmarket (vía pokemontcg.io) del ${new Date(p.apiUpdatedAt).toLocaleDateString("es-ES")}.`);
+    else if (p.apiUpdatedAt && !p.guideCreatedAt) parts.push(`Solo hay precios de tendencia de Cardmarket (vía pokemontcg.io) del ${new Date(p.apiUpdatedAt).toLocaleDateString("es-ES")}.`);
     else parts.push("Aún no hay precios descargados. Ejecuta la acción «Actualizar precios Cardmarket» en GitHub.");
-    parts.push("«~» = precio aproximado (tendencia), no hay ofertas en esa condición.");
+    parts.push("«~» = tendencia de Cardmarket (todas las condiciones); sin «~» = precio real NM/EX.");
     $("#pricesInfo").textContent = parts.join(" ");
   }
 
@@ -307,14 +313,18 @@
     const cm = p.cm || {};
     const api = p.api || {};
     const owned = !!state.owned[id];
-    const trend = cm.trend ?? api.trend;
+    const g = p.guide || {};
+    const trend = g.trend ?? cm.trend ?? api.trend;
     const searchUrl = `https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=${encodeURIComponent(c.name + " Base Set 2")}`;
     const nmUrl = p.url ? cardmarketUrl(c, "nm") : null, exUrl = p.url ? cardmarketUrl(c, "ex") : null;
     const ref = [
       ["Tendencia Cardmarket", trend],
-      ["Media 30 días", cm.avg30 ?? api.avg30],
-      ["Media 7 días", cm.avg7 ?? api.avg7],
-      ["Desde (EX o mejor)", cm.exPlusFrom ?? api.lowExPlus],
+      ["Media venta (ayer)", g.avg1],
+      ["Media 7 días", g.avg7 ?? cm.avg7 ?? api.avg7],
+      ["Media 30 días", g.avg30 ?? cm.avg30 ?? api.avg30],
+      ["Precio medio en venta", g.avg],
+      ["Desde (cualquier estado)", g.low],
+      ["Desde (EX o mejor)", cm.exPlusFrom],
     ].filter(([, v]) => v != null);
     $("#sheetBody").innerHTML = `
       <div class="detail-head">
@@ -332,7 +342,7 @@
         ${priceBox("Excellent", "ex", cm.ex, cm.exPlusFrom ?? trend)}
       </div>
       ${ref.length ? `<div class="ref">${ref.map(([k, v]) => `<span class="muted">${k}</span><span>${fmt(v)}</span>`).join("")}</div>` : ""}
-      <p class="small muted" style="margin:0 0 10px">${p.scrapedAt ? "Precios del " + new Date(p.scrapedAt).toLocaleDateString("es-ES") : api.updatedAt ? "Tendencia del " + api.updatedAt : "Sin precios todavía"}</p>
+      <p class="small muted" style="margin:0 0 10px">${[p.scrapedAt && "NM/EX del " + fmtDate(p.scrapedAt), p.guide && state.prices.guideCreatedAt && "Guía oficial Cardmarket del " + fmtDate(state.prices.guideCreatedAt), !p.guide && api.updatedAt && "Tendencia del " + api.updatedAt].filter(Boolean).join(" · ") || "Sin precios todavía"}</p>
       <div class="links">
         ${nmUrl ? `<a href="${nmUrl}" target="_blank" rel="noopener">Cardmarket NM ↗</a><a href="${exUrl}" target="_blank" rel="noopener">Cardmarket EX+ ↗</a>`
                 : `<a href="${searchUrl}" target="_blank" rel="noopener">Buscar en Cardmarket ↗</a>`}

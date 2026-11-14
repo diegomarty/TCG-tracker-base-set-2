@@ -2,7 +2,7 @@ name: Actualizar precios Cardmarket
 
 on:
   schedule:
-    - cron: "17 3 * * 1"   # lunes 03:17 UTC
+    - cron: "23 4 * * *"   # cada día 04:23 UTC (la guía de Cardmarket se regenera de madrugada)
   workflow_dispatch:
     inputs:
       max_age:
@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prices.json data/cardmarket_urls.json
+          git add data/prices.json data/cardmarket_urls.json data/cardmarket_ids.json
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
           git commit -m "Actualizar precios de Cardmarket"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 10; done

@@ -16,14 +16,19 @@ Web estática (GitHub Pages) para llevar la colección de **Pokémon Base Set 2*
 
 ## Precios
 
-Hay dos fuentes, y la web usa la mejor disponible para cada carta:
+La web usa la mejor fuente disponible para cada carta:
 
-| Fuente | Qué da | Dónde se ejecuta |
-|---|---|---|
-| **Scraping de Cardmarket** (`scripts/fetch_prices.py`) | Precio **desde**, media de las 5 más baratas, mediana y nº de ofertas, separado en **NM** y **EX** (cartas en inglés) | **Tu ordenador** |
-| API pública pokemontcg.io | Tendencia de Cardmarket, medias 7/30 días y «desde EX+», más la URL exacta de cada producto | GitHub Actions (cada lunes) |
+| Fuente | Qué da | Frecuencia | Dónde |
+|---|---|---|---|
+| **[Guía de precios oficial de Cardmarket](https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_6.json)** (pública) | Tendencia, media de venta de ayer / 7 / 30 días, precio medio y «desde» (todas las condiciones juntas) | **A diario** | GitHub Actions |
+| Scraping de las fichas de Cardmarket | Precio **desde**, media de las 5 más baratas, mediana y nº de ofertas **separado en NM y EX** (inglés) | Cuando lo lances | Tu ordenador |
+| pokemontcg.io | Tendencia antigua (respaldo) | — | GitHub Actions |
 
-> ⚠️ Cardmarket (Cloudflare) responde **403 a las IPs de GitHub Actions**, así que el scraping NM/EX hay que lanzarlo desde casa. En la web, un precio con «~» es de tendencia (aproximado).
+Para cruzar cada carta con su producto de Cardmarket se usa el `idProduct` que da la API pública de [TCGdex](https://tcgdex.dev) (se guarda en `data/cardmarket_ids.json`).
+
+La acción **Actualizar precios Cardmarket** corre cada día y publica sola. En la web, «~» = tendencia (todas las condiciones); sin «~» = precio real NM/EX.
+
+> ⚠️ La guía oficial no separa por condición. Para NM/EX reales hay que leer las ofertas de cada ficha, y Cardmarket (Cloudflare) bloquea con 403 las IPs de GitHub Actions: eso solo funciona desde casa.
 
 ### Actualizar NM/EX desde tu ordenador
 
