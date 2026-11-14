@@ -197,6 +197,7 @@ def resolve_product_url(sess: Session, card: dict, api_cm: dict, urls: dict) -> 
             if loc and "cardmarket.com" in loc:
                 url = clean_url(loc)
                 url = re.sub(r"cardmarket\.com/[a-z]{2}/", "cardmarket.com/en/", url)
+                url = url.replace("://cardmarket.com", "://www.cardmarket.com")
                 urls[cid] = url
                 return url
         except Exception as e:
