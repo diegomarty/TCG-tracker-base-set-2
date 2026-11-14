@@ -6,16 +6,29 @@ Web estática (GitHub Pages) para llevar la colección de **Pokémon Base Set 2*
 
 ## Uso
 
-- **Toca** una carta para marcarla / desmarcarla (con «Deshacer»).
-- **Mantén pulsado** o toca la **i** para ver la carta en grande con todos los precios.
-- Botón **«CM»** en cada carta: te deja elegir **Near Mint o mejor** o **Excellent o mejor** (con su precio) y abre Cardmarket en una pestaña nueva con los filtros puestos (inglés + condición mínima).
-- Arriba: progreso, valor de lo que tienes, lo que te falta y total del set. Botón **NM / EX** para elegir qué precio se usa.
-- Barra fija con **búsqueda**, **Filtros** y **Ordenar**, y pestañas Todas / Faltan / Tengo.
-  - **Filtros**: rareza, tipo (Fuego, Agua…), rango de precio y tamaño de las cartas (grandes / normales / pequeñas). El botón muestra cuántos filtros hay activos y se pueden quitar uno a uno desde los chips bajo la barra.
-  - **Ordenar**: número ↑↓, precio ↑↓, nombre A–Z / Z–A, rareza, tipo, marcadas recientemente, y las que más suben o bajan de precio (media 7 días vs 30 días).
-  - Debajo se ve cuántas cartas salen y cuánto suman.
-- Menú **⋯**: copiar enlace con tu colección (para abrirla en otro dispositivo), exportar/importar JSON, cartas que faltan en gris, marcar todas las visibles, borrar.
-- La colección se guarda automáticamente en el navegador (`localStorage`, con copia de seguridad) en cada toque: al recargar o cerrar la página no se pierde nada. Abajo del todo verás «✓ Colección guardada en este dispositivo». Se guarda por navegador y dispositivo: para pasarla a otro, usa «Copiar enlace con mi colección» o exportar/importar. Se puede «Añadir a pantalla de inicio» y funciona sin conexión.
+- **Toca** una carta para marcarla / desmarcarla. El aviso trae «Deshacer» y «€ Precio» para apuntar lo que pagaste.
+- **Mantén pulsado** o toca la **i** para abrir la ficha.
+- Botón **«CM»** en cada carta: eliges **Near Mint o mejor** o **Excellent o mejor** (con su precio) y se abre Cardmarket en una pestaña nueva con los filtros puestos.
+- Arriba: progreso, valor de lo que tienes, lo que te falta y lo gastado. **NM / EX** elige qué precio se usa. Pestañas **Todas / Faltan / Tengo / ★ Busco**.
+- **Barra inferior** (al alcance del pulgar): búsqueda, **#**, lote, filtros y orden.
+
+### Pensado para un cardshow
+
+| Función | Cómo |
+|---|---|
+| **Sin conexión** | Menú ⋯ → «Preparar para usar sin conexión»: descarga las 130 imágenes, los precios y la app (con reintentos). Añádela a la pantalla de inicio. Si no hay red verás «Sin conexión» arriba. |
+| **Buscar por número** | Botón **#** → teclado numérico grande. Escribes el número de la carta (el «4» de «4/130») y sale con su precio y si la tienes. Desde ahí: «✓ Marcar», «CM» o «¿Buen precio?». En la búsqueda normal, Enter con un único resultado abre su ficha. |
+| **¿Es buen precio?** | En la ficha, «¿Cuánto te piden?» → verde (≥10 % por debajo), amarillo (±10 %) o rojo (caro) frente al precio NM/EX, y si está dentro de tu máximo. |
+| **Lote / calculadora** | «+ Añadir al lote» desde la ficha. En el lote ves lo que te piden, el valor y la diferencia; puedes poner un precio por todo el lote y «Comprar lote» (reparte el precio según el valor de cada carta). |
+| **Registrar compras** | «Comprada a este precio» o el campo «Pagado» en la ficha, con el estado (MT…PO) y la fecha. Menú ⋯ → «Resumen de gastos»: gastado total y de hoy, valor y ahorro frente a Cardmarket, últimas compras. |
+| **Objetivos** | En la ficha «☆ La busco» + precio máximo y prioridad. Pestaña **★ Busco** ordenada por prioridad; las cartas llevan una estrella con tu máximo. Al conseguirla deja de ser objetivo. |
+| **Modo feria** | Botón «Feria»: solo las que faltan, cartas grandes, precios más visibles y la pantalla no se apaga. Al quitarlo vuelve todo como estaba. |
+| **Lista de faltas** | Menú ⋯ → «Mi lista de faltas»: texto con objetivos primero y el resto por rareza, para enseñar o compartir por WhatsApp. |
+| **Repetidas** | En la ficha, «Copias − / +». Filtro «Repetidas» y marca «×2» en la carta. |
+
+- Filtros: rareza, tipo, rango de precio, repetidas, con/sin precio de compra y tamaño de las cartas. Orden: número, precio, nombre, rareza, tipo, prioridad, recientes, lo más caro que pagaste y tendencia.
+- Menú **⋯**: también copiar enlace con tu colección, exportar/importar JSON (incluye compras, repetidas y objetivos), cartas que faltan en gris, marcar todas las visibles y borrar.
+- Todo se guarda automáticamente en el navegador (`localStorage`, con copia de seguridad): al recargar o cerrar la página no se pierde nada. Es por navegador y dispositivo: para pasarla a otro, usa el enlace o exportar/importar.
 
 ## Precios
 

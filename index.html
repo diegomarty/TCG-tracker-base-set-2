@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#14161c" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Base Set 2">
   <link rel="manifest" href="manifest.webmanifest">
@@ -19,9 +20,10 @@
   <header class="top">
     <div class="top-row">
       <div class="title">
-        <h1>Base Set 2</h1>
+        <h1>Base Set 2 <span class="net-pill" id="netState" hidden>Sin conexión</span></h1>
         <p id="progressText" class="muted">Cargando…</p>
       </div>
+      <button type="button" class="fair-btn" id="fairBtn" aria-pressed="false" title="Modo feria: solo las que faltan, en grande y pantalla siempre encendida">Feria</button>
       <div class="cond-toggle" role="radiogroup" aria-label="Condición para precios">
         <button type="button" role="radio" data-cond="nm" aria-checked="true">NM</button>
         <button type="button" role="radio" data-cond="ex" aria-checked="false">EX</button>
@@ -31,29 +33,16 @@
       </button>
     </div>
     <div class="progress" aria-hidden="true"><div id="progressBar"></div></div>
-    <div class="stats">
+    <div class="stats" id="stats">
       <div><span class="muted">Tengo</span> <strong id="ownedValue">–</strong></div>
       <div><span class="muted">Me falta</span> <strong id="missingValue">–</strong></div>
-      <div><span class="muted">Set</span> <strong id="totalValue">–</strong></div>
-    </div>
-    <div class="toolbar">
-      <label class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.2 4.2-1.4 1.4-4.2-4.2A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
-        <input id="search" type="search" placeholder="Buscar nombre o nº" autocomplete="off" enterkeyhint="search" aria-label="Buscar carta">
-        <button type="button" class="clear-search" id="clearSearch" aria-label="Borrar búsqueda" hidden>×</button>
-      </label>
-      <button type="button" class="tool-btn" id="filtersBtn" aria-label="Filtros">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3zm3 6h12v2H6zm4 6h4v2h-4z"/></svg>
-        <span class="badge-count" id="filtersCount" hidden></span>
-      </button>
-      <button type="button" class="tool-btn" id="sortBtn" aria-label="Ordenar">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 3 7h3v14h2V7h3L7 3Zm10 18 4-4h-3V3h-2v14h-3l4 4Z"/></svg>
-      </button>
+      <div id="spentBox" hidden><span class="muted">Gastado</span> <strong id="spentValue">–</strong></div>
     </div>
     <div class="segmented" role="tablist" aria-label="Filtro de colección">
       <button type="button" role="tab" data-filter="all" aria-selected="true">Todas <span id="countAll"></span></button>
       <button type="button" role="tab" data-filter="missing" aria-selected="false">Faltan <span id="countMissing"></span></button>
       <button type="button" role="tab" data-filter="owned" aria-selected="false">Tengo <span id="countOwned"></span></button>
+      <button type="button" role="tab" data-filter="wish" aria-selected="false">★ Busco <span id="countWish"></span></button>
     </div>
   </header>
 
@@ -63,10 +52,10 @@
       <span id="sortLabel" class="muted"></span>
     </div>
     <div class="active-filters" id="activeFilters" hidden></div>
-    <p class="hint muted" id="hint">Toca para marcar · mantén pulsado para ver precios · «CM» abre Cardmarket</p>
+    <p class="hint muted" id="hint">Toca para marcar · mantén pulsado para ver precios · <b>#</b> busca por número</p>
     <ul id="grid" class="grid" aria-live="polite"></ul>
     <div id="empty" class="empty" hidden>
-      <p class="muted">No hay cartas con estos filtros.</p>
+      <p class="muted" id="emptyText">No hay cartas con estos filtros.</p>
       <button type="button" class="pill-btn" id="emptyClear">Quitar filtros</button>
     </div>
     <p id="saveState" class="save-state muted" aria-live="polite"></p>
@@ -75,6 +64,27 @@
       <p>Imágenes: pokemontcg.io · Precios: Cardmarket. No afiliado a Nintendo, The Pokémon Company ni Cardmarket.</p>
     </footer>
   </main>
+
+  <!-- Barra inferior (al alcance del pulgar) -->
+  <nav class="bottom-bar" aria-label="Herramientas">
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.2 4.2-1.4 1.4-4.2-4.2A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+      <input id="search" type="search" placeholder="Buscar" autocomplete="off" enterkeyhint="search" aria-label="Buscar carta por nombre o número">
+      <button type="button" class="clear-search" id="clearSearch" aria-label="Borrar búsqueda" hidden>×</button>
+    </label>
+    <button type="button" class="tool-btn hash" id="keypadBtn" aria-label="Buscar por número">#</button>
+    <button type="button" class="tool-btn" id="lotBtn" aria-label="Lote / calculadora">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7V6a5 5 0 0 1 10 0v1h3.2l-1.3 14.1A2 2 0 0 1 16.9 23H7.1a2 2 0 0 1-2-1.9L3.8 7H7Zm2 0h6V6a3 3 0 0 0-6 0v1ZM5.9 9l1.2 12h9.8l1.2-12H5.9Z"/></svg>
+      <span class="badge-count" id="lotCount" hidden></span>
+    </button>
+    <button type="button" class="tool-btn" id="filtersBtn" aria-label="Filtros">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3zm3 6h12v2H6zm4 6h4v2h-4z"/></svg>
+      <span class="badge-count" id="filtersCount" hidden></span>
+    </button>
+    <button type="button" class="tool-btn" id="sortBtn" aria-label="Ordenar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 3 7h3v14h2V7h3L7 3Zm10 18 4-4h-3V3h-2v14h-3l4 4Z"/></svg>
+    </button>
+  </nav>
 
   <!-- Detalle -->
   <dialog id="sheet" class="sheet" aria-labelledby="sheetTitle">
@@ -85,6 +95,28 @@
     <div class="sheet-body" id="sheetBody"></div>
   </dialog>
 
+  <!-- Teclado numérico -->
+  <dialog id="keypad" class="sheet" aria-labelledby="keypadTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-body">
+      <h2 class="sheet-title" id="keypadTitle">Buscar por número</h2>
+      <div class="kp-display"><span class="muted">#</span><span id="kpValue"></span><span class="muted">/130</span></div>
+      <div class="kp-preview" id="kpPreview"></div>
+      <div class="kp-keys" id="kpKeys">
+        <button type="button" data-k="1">1</button><button type="button" data-k="2">2</button><button type="button" data-k="3">3</button>
+        <button type="button" data-k="4">4</button><button type="button" data-k="5">5</button><button type="button" data-k="6">6</button>
+        <button type="button" data-k="7">7</button><button type="button" data-k="8">8</button><button type="button" data-k="9">9</button>
+        <button type="button" data-k="clear" class="alt">C</button><button type="button" data-k="0">0</button><button type="button" data-k="back" class="alt" aria-label="Borrar">⌫</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Lote / calculadora -->
+  <dialog id="lotSheet" class="sheet" aria-labelledby="lotTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-body" id="lotBody"></div>
+  </dialog>
+
   <!-- Filtros -->
   <dialog id="filtersSheet" class="sheet" aria-labelledby="filtersTitle">
     <div class="sheet-handle" aria-hidden="true"></div>
@@ -93,6 +125,7 @@
       <section class="fgroup"><h3>Rareza</h3><div class="chip-wrap" id="fCats"></div></section>
       <section class="fgroup"><h3>Tipo</h3><div class="chip-wrap" id="fTypes"></div></section>
       <section class="fgroup"><h3>Precio <small class="muted" id="fPriceCond"></small></h3><div class="chip-wrap" id="fPrice"></div></section>
+      <section class="fgroup"><h3>Colección</h3><div class="chip-wrap" id="fExtra"></div></section>
       <section class="fgroup"><h3>Tamaño de las cartas</h3><div class="chip-wrap" id="fDensity"></div></section>
     </div>
     <div class="sheet-actions">
@@ -116,12 +149,24 @@
     <div class="sheet-body" id="cmBody"></div>
   </dialog>
 
+  <!-- Paneles genéricos: lista de faltas, resumen, sin conexión -->
+  <dialog id="panel" class="sheet" aria-labelledby="panelTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <button type="button" class="icon-btn sheet-close" data-close aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4 6.4 19 5 17.6 10.6 12 5 6.4z"/></svg>
+    </button>
+    <div class="sheet-body" id="panelBody"></div>
+  </dialog>
+
   <!-- Menú -->
   <dialog id="menu" class="sheet" aria-label="Opciones">
     <div class="sheet-handle" aria-hidden="true"></div>
     <div class="menu-list">
+      <button type="button" data-action="offline">Preparar para usar sin conexión <small id="offlineState">Descarga las 130 imágenes y los precios</small></button>
+      <button type="button" data-action="wantlist">Mi lista de faltas <small>Para enseñar al vendedor o mandarla por WhatsApp</small></button>
+      <button type="button" data-action="summary">Resumen de gastos <small>Gastado, valor actual y últimas compras</small></button>
       <button type="button" data-action="share">Copiar enlace con mi colección <small>Para abrirla en otro móvil u ordenador</small></button>
-      <button type="button" data-action="export">Exportar copia (JSON)</button>
+      <button type="button" data-action="export">Exportar copia (JSON) <small>Incluye compras, repetidas y objetivos</small></button>
       <button type="button" data-action="import">Importar copia (JSON)</button>
       <button type="button" data-action="grayscale">Cartas que faltan en gris <small id="grayState"></small></button>
       <button type="button" data-action="markAll">Marcar todas las visibles</button>
