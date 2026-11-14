@@ -139,7 +139,14 @@ class Session:
                 time.sleep(backoff)
                 backoff *= 2
                 continue
-            if r.status_code in (429, 403, 503) or r.status_code >= 500:
+            if r.status_code == 403:
+                # Cloudflare / bloqueo: insistir solo empeora. Un reintento corto y abandonar.
+                if attempt >= 2:
+                    raise Blocked(f"HTTP 403 en {url}")
+                log("  ! HTTP 403; espero 45s y pruebo una vez más")
+                time.sleep(45)
+                continue
+            if r.status_code in (429, 503) or r.status_code >= 500:
                 retry_after = r.headers.get("Retry-After")
                 wait = float(retry_after) if retry_after and retry_after.isdigit() else backoff
                 log(f"  ! HTTP {r.status_code}; espero {wait:.0f}s (intento {attempt}/{retries})")
@@ -160,7 +167,7 @@ def fetch_api_prices(sess: Session) -> dict:
         headers["X-Api-Key"] = os.environ["POKEMONTCG_API_KEY"]
     for attempt in range(3):
         try:
-            r = sess.s.get(url, headers=headers, timeout=90)
+            r = sess.s.get(url, headers=headers, timeout=60)
             if r.status_code == 200:
                 data = r.json().get("data", [])
                 log(f"pokemontcg.io: {len(data)} cartas con datos de Cardmarket")
@@ -289,8 +296,12 @@ def summarize(prices: list[float]) -> dict | None:
 def scrape_card(sess: Session, url: str, language: int, debug: bool, cid: str) -> dict:
     query = urlencode({"language": language, "minCondition": CONDITION_CODES["EX"]})
     page = f"{url}?{query}"
-    r = sess.get(page)
+    try:
+        r = sess.get(page)
+    except Blocked:
+        raise
     html = r.text
+    log(f"  GET {page} -> HTTP {r.status_code}, {len(html)} bytes")
     if debug:
         DEBUG_DIR.mkdir(exist_ok=True)
         (DEBUG_DIR / f"{cid}.html").write_text(html, encoding="utf-8")
@@ -356,6 +367,16 @@ def main() -> int:
     save_json(PRICES_FILE, prices)
 
     if args.no_scrape:
+        # Sin tocar Cardmarket: solo resolvemos las URLs de producto (vía prices.pokemontcg.io)
+        for card in cards:
+            if card["id"] not in urls and api.get(card["id"]):
+                time.sleep(0.5)
+            url = resolve_product_url(sess, card, api.get(card["id"], {}), urls)
+            if url:
+                prices["cards"].setdefault(card["id"], {})["url"] = url
+        save_json(URLS_FILE, urls)
+        save_json(PRICES_FILE, prices)
+        log(f"URLs de Cardmarket conocidas: {len(urls)}/{len(cards)}")
         return 0
 
     # 2) Scraping lento de Cardmarket

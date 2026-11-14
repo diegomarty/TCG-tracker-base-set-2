@@ -13,22 +13,30 @@ Web estática (GitHub Pages) para llevar la colección de **Pokémon Base Set 2*
 
 ## Precios
 
-`scripts/fetch_prices.py` se ejecuta en GitHub Actions (cada lunes y a mano desde *Actions → Actualizar precios Cardmarket → Run workflow*):
+Hay dos fuentes, y la web usa la mejor disponible para cada carta:
 
-1. Pide a la API pública de pokemontcg.io la tendencia de Cardmarket y la URL de cada producto (1 petición).
-2. Visita **despacio** cada página de Cardmarket (1 petición por carta, 9–16 s de pausa aleatoria + pausas largas cada 15, backoff ante 429/403 y parada si bloquea), filtrando por inglés y condición ≥ EX. Separa las ofertas **NM** y **EX** y guarda: precio desde, media de las 5 más baratas, mediana y nº de ofertas.
-3. Guarda tras cada carta en `data/prices.json`; si se corta, la siguiente ejecución sigue por donde iba.
+| Fuente | Qué da | Dónde se ejecuta |
+|---|---|---|
+| **Scraping de Cardmarket** (`scripts/fetch_prices.py`) | Precio **desde**, media de las 5 más baratas, mediana y nº de ofertas, separado en **NM** y **EX** (cartas en inglés) | **Tu ordenador** |
+| API pública pokemontcg.io | Tendencia de Cardmarket, medias 7/30 días y «desde EX+», más la URL exacta de cada producto | GitHub Actions (cada lunes) |
 
-Si Cardmarket bloquea el scraping, la web muestra la tendencia (marcada con «~»).
-Si alguna carta no encuentra su URL, añádela a mano en `data/cardmarket_urls.json` (`{"base4-4": "https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charizard"}`).
+> ⚠️ Cardmarket (Cloudflare) responde **403 a las IPs de GitHub Actions**, así que el scraping NM/EX hay que lanzarlo desde casa. En la web, un precio con «~» es de tendencia (aproximado).
 
-Ejecutarlo en local (desde tu IP):
+### Actualizar NM/EX desde tu ordenador
+
+Necesitas Python 3 y git con acceso al repo:
 
 ```bash
-pip install -r scripts/requirements.txt
-python scripts/fetch_prices.py --max-age 0     # todas
-python scripts/fetch_prices.py --only 4,2,10   # solo algunas
+./scripts/actualizar_precios.sh              # refresca lo que tenga más de 6 días, hace commit y push
+./scripts/actualizar_precios.sh --max-age 0  # fuerza todas
+./scripts/actualizar_precios.sh --only 4,2   # solo esas cartas (por número)
 ```
+
+(En Windows: `pip install -r scripts/requirements.txt`, luego `python scripts/fetch_prices.py` y `git add data && git commit -m precios && git push`.)
+
+Va **despacio a propósito** para evitar baneos: 1 petición por carta, 9–16 s de pausa aleatoria + pausa larga cada 15 cartas, reintentos con espera ante 429/5xx y parada inmediata si Cardmarket bloquea (403). Las 130 cartas tardan ~35–45 min. Guarda tras cada carta: si lo cortas, la siguiente vez continúa.
+
+Si alguna carta no encuentra su URL, añádela a mano en `data/cardmarket_urls.json`. Si Cardmarket cambia su HTML, `python scripts/fetch_prices.py --only 4 --debug` guarda la página en `.debug/` para revisarla.
 
 ## Publicación
 
