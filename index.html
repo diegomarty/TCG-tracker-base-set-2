@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Base Set 2 Tracker</title>
+  <meta name="description" content="Seguimiento de mi colección de Pokémon Base Set 2 con precios de Cardmarket (NM y EX).">
+  <meta name="theme-color" content="#14161c" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Base Set 2">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-row">
+      <div class="title">
+        <h1>Base Set 2</h1>
+        <p id="progressText" class="muted">Cargando…</p>
+      </div>
+      <div class="cond-toggle" role="radiogroup" aria-label="Condición para precios">
+        <button type="button" role="radio" data-cond="nm" aria-checked="true">NM</button>
+        <button type="button" role="radio" data-cond="ex" aria-checked="false">EX</button>
+      </div>
+      <button type="button" class="icon-btn" id="menuBtn" aria-label="Más opciones">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+      </button>
+    </div>
+    <div class="progress" aria-hidden="true"><div id="progressBar"></div></div>
+    <div class="stats">
+      <div><span class="muted">Tengo</span> <strong id="ownedValue">–</strong></div>
+      <div><span class="muted">Me falta</span> <strong id="missingValue">–</strong></div>
+      <div><span class="muted">Set</span> <strong id="totalValue">–</strong></div>
+    </div>
+  </header>
+
+  <section class="filters">
+    <div class="controls">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.2 4.2-1.4 1.4-4.2-4.2A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+        <input id="search" type="search" placeholder="Buscar nombre o nº" autocomplete="off" enterkeyhint="search">
+      </label>
+      <select id="sort" aria-label="Ordenar">
+        <option value="num">Nº</option>
+        <option value="priceDesc">Precio ↓</option>
+        <option value="priceAsc">Precio ↑</option>
+        <option value="name">Nombre</option>
+      </select>
+    </div>
+    <div class="segmented" role="tablist" aria-label="Filtro de colección">
+      <button type="button" role="tab" data-filter="all" aria-selected="true">Todas <span id="countAll"></span></button>
+      <button type="button" role="tab" data-filter="missing" aria-selected="false">Faltan <span id="countMissing"></span></button>
+      <button type="button" role="tab" data-filter="owned" aria-selected="false">Tengo <span id="countOwned"></span></button>
+    </div>
+    <div class="chips" id="chips" aria-label="Rareza"></div>
+  </section>
+
+  <main>
+    <p class="hint muted" id="hint">Toca una carta para marcarla · mantén pulsado para ver detalles y precios</p>
+    <ul id="grid" class="grid" aria-live="polite"></ul>
+    <p id="empty" class="empty muted" hidden>No hay cartas con estos filtros.</p>
+    <footer class="foot muted">
+      <p id="pricesInfo"></p>
+      <p>Imágenes: pokemontcg.io · Precios: Cardmarket. No afiliado a Nintendo, The Pokémon Company ni Cardmarket.</p>
+    </footer>
+  </main>
+
+  <!-- Detalle -->
+  <dialog id="sheet" class="sheet" aria-labelledby="sheetTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <button type="button" class="icon-btn sheet-close" id="sheetClose" aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4 6.4 19 5 17.6 10.6 12 5 6.4z"/></svg>
+    </button>
+    <div class="sheet-body" id="sheetBody"></div>
+  </dialog>
+
+  <!-- Menú -->
+  <dialog id="menu" class="sheet" aria-label="Opciones">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="menu-list">
+      <button type="button" data-action="share">Copiar enlace con mi colección <small>Para abrirla en otro móvil u ordenador</small></button>
+      <button type="button" data-action="export">Exportar copia (JSON)</button>
+      <button type="button" data-action="import">Importar copia (JSON)</button>
+      <button type="button" data-action="grayscale">Cartas que faltan en gris <small id="grayState"></small></button>
+      <button type="button" data-action="markAll">Marcar todas las visibles</button>
+      <button type="button" data-action="reset" class="danger">Borrar mi colección</button>
+      <button type="button" data-action="close" class="ghost">Cerrar</button>
+    </div>
+    <input type="file" id="importFile" accept="application/json,.json" hidden>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden>
+    <span id="toastText"></span>
+    <button type="button" id="toastAction">Deshacer</button>
+  </div>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
