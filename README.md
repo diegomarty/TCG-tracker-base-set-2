@@ -7,11 +7,14 @@ Web estática (GitHub Pages) para llevar la colección de **Pokémon Base Set 2*
 ## Uso
 
 - **Toca** una carta para marcarla / desmarcarla (con «Deshacer»).
-- **Mantén pulsado** o toca la **i** para ver la carta en grande con los precios NM y EX, tendencia y enlace a Cardmarket.
+- **Mantén pulsado** o toca la **i** para ver la carta en grande con todos los precios.
+- Botón **«CM»** en cada carta: te deja elegir **Near Mint o mejor** o **Excellent o mejor** (con su precio) y abre Cardmarket en una pestaña nueva con los filtros puestos (inglés + condición mínima).
 - Arriba: progreso, valor de lo que tienes, lo que te falta y total del set. Botón **NM / EX** para elegir qué precio se usa.
-- Filtros: Todas / Faltan / Tengo, rareza, búsqueda por nombre o número, orden por número/precio/nombre.
-- Botón **«CM ↗»** en cada carta: abre la ficha de Cardmarket en una pestaña nueva con los filtros puestos (cartas en inglés y condición mínima NM o EX, según el botón NM / EX).
-- Menú **⋯**: copiar enlace con tu colección (para abrirla en otro dispositivo), exportar/importar JSON, cartas que faltan en gris, borrar.
+- Barra fija con **búsqueda**, **Filtros** y **Ordenar**, y pestañas Todas / Faltan / Tengo.
+  - **Filtros**: rareza, tipo (Fuego, Agua…), rango de precio y tamaño de las cartas (grandes / normales / pequeñas). El botón muestra cuántos filtros hay activos y se pueden quitar uno a uno desde los chips bajo la barra.
+  - **Ordenar**: número ↑↓, precio ↑↓, nombre A–Z / Z–A, rareza, tipo, marcadas recientemente, y las que más suben o bajan de precio (media 7 días vs 30 días).
+  - Debajo se ve cuántas cartas salen y cuánto suman.
+- Menú **⋯**: copiar enlace con tu colección (para abrirla en otro dispositivo), exportar/importar JSON, cartas que faltan en gris, marcar todas las visibles, borrar.
 - La colección se guarda automáticamente en el navegador (`localStorage`, con copia de seguridad) en cada toque: al recargar o cerrar la página no se pierde nada. Abajo del todo verás «✓ Colección guardada en este dispositivo». Se guarda por navegador y dispositivo: para pasarla a otro, usa «Copiar enlace con mi colección» o exportar/importar. Se puede «Añadir a pantalla de inicio» y funciona sin conexión.
 
 ## Precios

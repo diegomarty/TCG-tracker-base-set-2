@@ -36,33 +36,39 @@
       <div><span class="muted">Me falta</span> <strong id="missingValue">–</strong></div>
       <div><span class="muted">Set</span> <strong id="totalValue">–</strong></div>
     </div>
-  </header>
-
-  <section class="filters">
-    <div class="controls">
+    <div class="toolbar">
       <label class="search">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.2 4.2-1.4 1.4-4.2-4.2A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
-        <input id="search" type="search" placeholder="Buscar nombre o nº" autocomplete="off" enterkeyhint="search">
+        <input id="search" type="search" placeholder="Buscar nombre o nº" autocomplete="off" enterkeyhint="search" aria-label="Buscar carta">
+        <button type="button" class="clear-search" id="clearSearch" aria-label="Borrar búsqueda" hidden>×</button>
       </label>
-      <select id="sort" aria-label="Ordenar">
-        <option value="num">Nº</option>
-        <option value="priceDesc">Precio ↓</option>
-        <option value="priceAsc">Precio ↑</option>
-        <option value="name">Nombre</option>
-      </select>
+      <button type="button" class="tool-btn" id="filtersBtn" aria-label="Filtros">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v2H3zm3 6h12v2H6zm4 6h4v2h-4z"/></svg>
+        <span class="badge-count" id="filtersCount" hidden></span>
+      </button>
+      <button type="button" class="tool-btn" id="sortBtn" aria-label="Ordenar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 3 7h3v14h2V7h3L7 3Zm10 18 4-4h-3V3h-2v14h-3l4 4Z"/></svg>
+      </button>
     </div>
     <div class="segmented" role="tablist" aria-label="Filtro de colección">
       <button type="button" role="tab" data-filter="all" aria-selected="true">Todas <span id="countAll"></span></button>
       <button type="button" role="tab" data-filter="missing" aria-selected="false">Faltan <span id="countMissing"></span></button>
       <button type="button" role="tab" data-filter="owned" aria-selected="false">Tengo <span id="countOwned"></span></button>
     </div>
-    <div class="chips" id="chips" aria-label="Rareza"></div>
-  </section>
+  </header>
 
   <main>
-    <p class="hint muted" id="hint">Toca una carta para marcarla · mantén pulsado para ver precios · «CM ↗» abre Cardmarket</p>
+    <div class="result-bar">
+      <span id="resultCount" class="muted"></span>
+      <span id="sortLabel" class="muted"></span>
+    </div>
+    <div class="active-filters" id="activeFilters" hidden></div>
+    <p class="hint muted" id="hint">Toca para marcar · mantén pulsado para ver precios · «CM» abre Cardmarket</p>
     <ul id="grid" class="grid" aria-live="polite"></ul>
-    <p id="empty" class="empty muted" hidden>No hay cartas con estos filtros.</p>
+    <div id="empty" class="empty" hidden>
+      <p class="muted">No hay cartas con estos filtros.</p>
+      <button type="button" class="pill-btn" id="emptyClear">Quitar filtros</button>
+    </div>
     <p id="saveState" class="save-state muted" aria-live="polite"></p>
     <footer class="foot muted">
       <p id="pricesInfo"></p>
@@ -77,6 +83,37 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4 6.4 19 5 17.6 10.6 12 5 6.4z"/></svg>
     </button>
     <div class="sheet-body" id="sheetBody"></div>
+  </dialog>
+
+  <!-- Filtros -->
+  <dialog id="filtersSheet" class="sheet" aria-labelledby="filtersTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-body">
+      <h2 class="sheet-title" id="filtersTitle">Filtros</h2>
+      <section class="fgroup"><h3>Rareza</h3><div class="chip-wrap" id="fCats"></div></section>
+      <section class="fgroup"><h3>Tipo</h3><div class="chip-wrap" id="fTypes"></div></section>
+      <section class="fgroup"><h3>Precio <small class="muted" id="fPriceCond"></small></h3><div class="chip-wrap" id="fPrice"></div></section>
+      <section class="fgroup"><h3>Tamaño de las cartas</h3><div class="chip-wrap" id="fDensity"></div></section>
+    </div>
+    <div class="sheet-actions">
+      <button type="button" class="pill-btn ghost" id="filtersClear">Limpiar</button>
+      <button type="button" class="pill-btn primary" id="filtersApply">Ver cartas</button>
+    </div>
+  </dialog>
+
+  <!-- Ordenar -->
+  <dialog id="sortSheet" class="sheet" aria-labelledby="sortTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-body">
+      <h2 class="sheet-title" id="sortTitle">Ordenar por</h2>
+      <div class="radio-list" id="sortList" role="radiogroup" aria-labelledby="sortTitle"></div>
+    </div>
+  </dialog>
+
+  <!-- Cardmarket: elegir condición -->
+  <dialog id="cmSheet" class="sheet" aria-labelledby="cmTitle">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-body" id="cmBody"></div>
   </dialog>
 
   <!-- Menú -->
