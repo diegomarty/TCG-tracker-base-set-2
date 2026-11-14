@@ -1,0 +1,134 @@
+# Enlaces de Cardmarket (inglés, EX o mejor)
+
+Cada enlace muestra las ofertas NM y EX juntas, ordenadas por precio.
+
+- 1. [Alakazam](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Alakazam-B21?language=1&minCondition=3) · Rare Holo
+- 2. [Blastoise](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Blastoise-B22?language=1&minCondition=3) · Rare Holo
+- 3. [Chansey](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Chansey-B23?language=1&minCondition=3) · Rare Holo
+- 4. [Charizard](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charizard-B24?language=1&minCondition=3) · Rare Holo
+- 5. [Clefable](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Clefable-B25?language=1&minCondition=3) · Rare Holo
+- 6. [Clefairy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Clefairy-B26?language=1&minCondition=3) · Rare Holo
+- 7. [Gyarados](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gyarados-B27?language=1&minCondition=3) · Rare Holo
+- 8. [Hitmonchan](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Hitmonchan-B28?language=1&minCondition=3) · Rare Holo
+- 9. [Magneton](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magneton-B29?language=1&minCondition=3) · Rare Holo
+- 10. [Mewtwo](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Mewtwo-B210?language=1&minCondition=3) · Rare Holo
+- 11. [Nidoking](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoking-B211?language=1&minCondition=3) · Rare Holo
+- 12. [Nidoqueen](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoqueen-B212?language=1&minCondition=3) · Rare Holo
+- 13. [Ninetales](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Ninetales-B213?language=1&minCondition=3) · Rare Holo
+- 14. [Pidgeot](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgeot-B214?language=1&minCondition=3) · Rare Holo
+- 15. [Poliwrath](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwrath-B215?language=1&minCondition=3) · Rare Holo
+- 16. [Raichu](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Raichu-B216?language=1&minCondition=3) · Rare Holo
+- 17. [Scyther](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Scyther-B217?language=1&minCondition=3) · Rare Holo
+- 18. [Venusaur](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venusaur-B218?language=1&minCondition=3) · Rare Holo
+- 19. [Wigglytuff](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Wigglytuff-B219?language=1&minCondition=3) · Rare Holo
+- 20. [Zapdos](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Zapdos-B220?language=1&minCondition=3) · Rare Holo
+- 21. [Beedrill](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Beedrill-B221?language=1&minCondition=3) · Rare
+- 22. [Dragonair](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dragonair-B222?language=1&minCondition=3) · Rare
+- 23. [Dugtrio](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dugtrio-B223?language=1&minCondition=3) · Rare
+- 24. [Electabuzz](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Electabuzz-B224?language=1&minCondition=3) · Rare
+- 25. [Electrode](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Electrode-B225?language=1&minCondition=3) · Rare
+- 26. [Kangaskhan](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kangaskhan-B226?language=1&minCondition=3) · Rare
+- 27. [Mr. Mime](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Mr-Mime-B227?language=1&minCondition=3) · Rare
+- 28. [Pidgeotto](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgeotto-B228?language=1&minCondition=3) · Rare
+- 29. [Pinsir](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pinsir-B229?language=1&minCondition=3) · Rare
+- 30. [Snorlax](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Snorlax-B230?language=1&minCondition=3) · Rare
+- 31. [Venomoth](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venomoth-B231?language=1&minCondition=3) · Rare
+- 32. [Victreebel](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Victreebel-B232?language=1&minCondition=3) · Rare
+- 33. [Arcanine](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Arcanine-B233?language=1&minCondition=3) · Uncommon
+- 34. [Butterfree](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Butterfree-B234?language=1&minCondition=3) · Uncommon
+- 35. [Charmeleon](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charmeleon-B235?language=1&minCondition=3) · Uncommon
+- 36. [Dewgong](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dewgong-B236?language=1&minCondition=3) · Uncommon
+- 37. [Dodrio](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dodrio-B237?language=1&minCondition=3) · Uncommon
+- 38. [Dratini](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Dratini-B238?language=1&minCondition=3) · Uncommon
+- 39. [Exeggutor](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Exeggutor-B239?language=1&minCondition=3) · Uncommon
+- 40. [Farfetch'd](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Farfetchd-B240?language=1&minCondition=3) · Uncommon
+- 41. [Fearow](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fearow-B241?language=1&minCondition=3) · Uncommon
+- 42. [Growlithe](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Growlithe-B242?language=1&minCondition=3) · Uncommon
+- 43. [Haunter](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Haunter-B243?language=1&minCondition=3) · Uncommon
+- 44. [Ivysaur](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Ivysaur-B244?language=1&minCondition=3) · Uncommon
+- 45. [Jynx](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Jynx-B245?language=1&minCondition=3) · Uncommon
+- 46. [Kadabra](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kadabra-B246?language=1&minCondition=3) · Uncommon
+- 47. [Kakuna](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Kakuna-B247?language=1&minCondition=3) · Uncommon
+- 48. [Lickitung](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lickitung-B248?language=1&minCondition=3) · Uncommon
+- 49. [Machoke](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Machoke-B249?language=1&minCondition=3) · Uncommon
+- 50. [Magikarp](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magikarp-B250?language=1&minCondition=3) · Uncommon
+- 51. [Magmar](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magmar-B251?language=1&minCondition=3) · Uncommon
+- 52. [Marowak](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Marowak-B252?language=1&minCondition=3) · Uncommon
+- 53. [Nidorina](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidorina-B253?language=1&minCondition=3) · Uncommon
+- 54. [Nidorino](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidorino-B254?language=1&minCondition=3) · Uncommon
+- 55. [Parasect](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Parasect-B255?language=1&minCondition=3) · Uncommon
+- 56. [Persian](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Persian-B256?language=1&minCondition=3) · Uncommon
+- 57. [Poliwhirl](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwhirl-B257?language=1&minCondition=3) · Uncommon
+- 58. [Raticate](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Raticate-B258?language=1&minCondition=3) · Uncommon
+- 59. [Rhydon](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rhydon-B259?language=1&minCondition=3) · Uncommon
+- 60. [Seaking](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Seaking-B260?language=1&minCondition=3) · Uncommon
+- 61. [Seel](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Seel-B261?language=1&minCondition=3) · Uncommon
+- 62. [Tauros](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Tauros-B262?language=1&minCondition=3) · Uncommon
+- 63. [Wartortle](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Wartortle-B263?language=1&minCondition=3) · Uncommon
+- 64. [Weepinbell](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Weepinbell-B264?language=1&minCondition=3) · Uncommon
+- 65. [Abra](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Abra-B265?language=1&minCondition=3) · Common
+- 66. [Bellsprout](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bellsprout-B266?language=1&minCondition=3) · Common
+- 67. [Bulbasaur](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bulbasaur-B267?language=1&minCondition=3) · Common
+- 68. [Caterpie](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Caterpie-B268?language=1&minCondition=3) · Common
+- 69. [Charmander](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Charmander-B269?language=1&minCondition=3) · Common
+- 70. [Cubone](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Cubone-B270?language=1&minCondition=3) · Common
+- 71. [Diglett](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Diglett-B271?language=1&minCondition=3) · Common
+- 72. [Doduo](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Doduo-B272?language=1&minCondition=3) · Common
+- 73. [Drowzee](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Drowzee-B273?language=1&minCondition=3) · Common
+- 74. [Exeggcute](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Exeggcute-B274?language=1&minCondition=3) · Common
+- 75. [Gastly](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gastly-B275?language=1&minCondition=3) · Common
+- 76. [Goldeen](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Goldeen-B276?language=1&minCondition=3) · Common
+- 77. [Jigglypuff](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Jigglypuff-B277?language=1&minCondition=3) · Common
+- 78. [Machop](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Machop-B278?language=1&minCondition=3) · Common
+- 79. [Magnemite](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Magnemite-B279?language=1&minCondition=3) · Common
+- 80. [Meowth](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Meowth-B280?language=1&minCondition=3) · Common
+- 81. [Metapod](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Metapod-B281?language=1&minCondition=3) · Common
+- 82. [Nidoran ♀](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoran-B282?language=1&minCondition=3) · Common
+- 83. [Nidoran ♂](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Nidoran-M-B283?language=1&minCondition=3) · Common
+- 84. [Onix](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Onix-B284?language=1&minCondition=3) · Common
+- 85. [Paras](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Paras-B285?language=1&minCondition=3) · Common
+- 86. [Pidgey](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pidgey-B286?language=1&minCondition=3) · Common
+- 87. [Pikachu](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pikachu-B287?language=1&minCondition=3) · Common
+- 88. [Poliwag](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poliwag-B288?language=1&minCondition=3) · Common
+- 89. [Rattata](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rattata-B289?language=1&minCondition=3) · Common
+- 90. [Rhyhorn](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Rhyhorn-B290?language=1&minCondition=3) · Common
+- 91. [Sandshrew](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Sandshrew-B291?language=1&minCondition=3) · Common
+- 92. [Spearow](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Spearow-B292?language=1&minCondition=3) · Common
+- 93. [Squirtle](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Squirtle-B293?language=1&minCondition=3) · Common
+- 94. [Starmie](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Starmie-B294?language=1&minCondition=3) · Common
+- 95. [Staryu](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Staryu-B295?language=1&minCondition=3) · Common
+- 96. [Tangela](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Tangela-B296?language=1&minCondition=3) · Common
+- 97. [Venonat](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Venonat-B297?language=1&minCondition=3) · Common
+- 98. [Voltorb](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Voltorb-B298?language=1&minCondition=3) · Common
+- 99. [Vulpix](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Vulpix-B299?language=1&minCondition=3) · Common
+- 100. [Weedle](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Weedle-B2100?language=1&minCondition=3) · Common
+- 101. [Computer Search](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Computer-Search-B2101?language=1&minCondition=3) · Rare
+- 102. [Imposter Professor Oak](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Imposter-Professor-Oak-B2102?language=1&minCondition=3) · Rare
+- 103. [Item Finder](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Item-Finder-B2103?language=1&minCondition=3) · Rare
+- 104. [Lass](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lass-B2104?language=1&minCondition=3) · Rare
+- 105. [Pokémon Breeder](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Breeder-B2105?language=1&minCondition=3) · Rare
+- 106. [Pokémon Trader](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Trader-B2106?language=1&minCondition=3) · Rare
+- 107. [Scoop Up](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Scoop-Up-B2107?language=1&minCondition=3) · Rare
+- 108. [Super Energy Removal](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Super-Energy-Removal-B2108?language=1&minCondition=3) · Rare
+- 109. [Defender](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Defender-B2109?language=1&minCondition=3) · Uncommon
+- 110. [Energy Retrieval](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Energy-Retrieval-B2110?language=1&minCondition=3) · Uncommon
+- 111. [Full Heal](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Full-Heal-B2111?language=1&minCondition=3) · Uncommon
+- 112. [Maintenance](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Maintenance-B2112?language=1&minCondition=3) · Uncommon
+- 113. [PlusPower](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/PlusPower-B2113?language=1&minCondition=3) · Uncommon
+- 114. [Pokémon Center](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokemon-Center-B2114?language=1&minCondition=3) · Uncommon
+- 115. [Pokédex](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Pokedex-B2115?language=1&minCondition=3) · Uncommon
+- 116. [Professor Oak](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Professor-Oak-B2116?language=1&minCondition=3) · Uncommon
+- 117. [Super Potion](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Super-Potion-B2117?language=1&minCondition=3) · Uncommon
+- 118. [Bill](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Bill-B2118?language=1&minCondition=3) · Common
+- 119. [Energy Removal](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Energy-Removal-B2119?language=1&minCondition=3) · Common
+- 120. [Gust of Wind](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Gust-of-Wind-B2120?language=1&minCondition=3) · Common
+- 121. [Poké Ball](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Poke-Ball-B2121?language=1&minCondition=3) · Common
+- 122. [Potion](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Potion-B2122?language=1&minCondition=3) · Common
+- 123. [Switch](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Switch-B2123?language=1&minCondition=3) · Common
+- 124. [Double Colorless Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Double-Colorless-Energy-B2124?language=1&minCondition=3) · Uncommon
+- 125. [Fighting Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fighting-Energy-B2125?language=1&minCondition=3) · Energy
+- 126. [Fire Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Fire-Energy-B2126?language=1&minCondition=3) · Energy
+- 127. [Grass Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Grass-Energy-B2127?language=1&minCondition=3) · Energy
+- 128. [Lightning Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Lightning-Energy-B2128?language=1&minCondition=3) · Energy
+- 129. [Psychic Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Psychic-Energy-B2129?language=1&minCondition=3) · Energy
+- 130. [Water Energy](https://www.cardmarket.com/en/Pokemon/Products/Singles/Base-Set-2/Water-Energy-B2130?language=1&minCondition=3) · Energy
