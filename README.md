@@ -40,6 +40,6 @@ Si alguna carta no encuentra su URL, añádela a mano en `data/cardmarket_urls.j
 
 ## Publicación
 
-En *Settings → Pages* elige **Source: GitHub Actions**. El workflow `pages.yml` publica en cada push a `main` y después de cada actualización de precios.
+GitHub Pages está configurado como *Deploy from a branch → main / (root)*: cada push a `main` (incluidas las actualizaciones de precios) se publica solo.
 
 Datos de cartas e imágenes: [pokemontcg.io](https://pokemontcg.io). No afiliado a Nintendo, The Pokémon Company ni Cardmarket.
