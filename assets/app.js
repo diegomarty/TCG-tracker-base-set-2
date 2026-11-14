@@ -258,7 +258,7 @@
     const active = state.settings.cond === key ? " active" : "";
     if (!data) {
       return `<div class="pbox${active}"><h3>${label}</h3><div class="big">${fallback != null ? "~" + fmt(fallback) : "–"}</div>
-        <p class="small muted" style="margin:4px 0 0">${fallback != null ? "Sin ofertas · aprox." : "Sin datos"}</p></div>`;
+        <p class="small muted" style="margin:4px 0 0">${fallback != null ? "Aprox. (tendencia)" : "Sin datos"}</p></div>`;
     }
     return `<div class="pbox${active}"><h3>${label}</h3><div class="big">${fmt(data.from)}</div>
       <dl><dt>Media 5 más bar.</dt><dd>${fmt(data.avg5)}</dd>
