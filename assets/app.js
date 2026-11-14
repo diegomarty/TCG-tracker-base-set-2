@@ -28,19 +28,46 @@
     settings: { cond: "nm", filter: "all", sort: "num", cats: [], grayscale: true, query: "" },
   };
 
+  // Se guarda en localStorage (clave principal + copia de seguridad) en cada cambio.
+  const BACKUP_KEY = STORE_KEY + "-backup";
+  let storageOk = true;
+  function readKey(k) {
+    try { const v = JSON.parse(localStorage.getItem(k) || "null"); return v && typeof v === "object" ? v : null; }
+    catch { return null; }
+  }
   function load() {
-    try {
-      const saved = JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
-      state.owned = saved.owned || {};
-      Object.assign(state.settings, saved.settings || {}, { query: "" });
-    } catch { /* almacenamiento no disponible */ }
+    const saved = readKey(STORE_KEY) || readKey(BACKUP_KEY) || {};
+    state.owned = saved.owned || {};
+    Object.assign(state.settings, saved.settings || {}, { query: "" });
   }
   function save() {
+    const { query, ...settings } = state.settings;
+    const data = JSON.stringify({ owned: state.owned, settings, savedAt: Date.now() });
     try {
-      const { query, ...settings } = state.settings;
-      localStorage.setItem(STORE_KEY, JSON.stringify({ owned: state.owned, settings }));
-    } catch { /* ignorar */ }
+      localStorage.setItem(STORE_KEY, data);
+      localStorage.setItem(BACKUP_KEY, data);
+      storageOk = true;
+    } catch {
+      if (storageOk) showToast("⚠️ No se pudo guardar en este navegador (¿modo privado?). Exporta una copia.");
+      storageOk = false;
+    }
+    renderSaveState();
   }
+  function renderSaveState() {
+    const el = document.getElementById("saveState");
+    if (!el) return;
+    el.textContent = storageOk
+      ? `✓ Colección guardada en este dispositivo (${Object.keys(state.owned).length} cartas)`
+      : "⚠️ Este navegador no permite guardar: exporta una copia desde el menú ⋯";
+  }
+  // Pide al navegador que no borre los datos automáticamente (Safari/Chrome)
+  if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+  window.addEventListener("pagehide", () => save());
+  // Sincroniza si la colección cambia en otra pestaña
+  window.addEventListener("storage", (e) => {
+    if (e.key !== STORE_KEY || !e.newValue) return;
+    try { state.owned = JSON.parse(e.newValue).owned || {}; render(); } catch { /* ignorar */ }
+  });
 
   const category = (c) =>
     c.supertype === "Trainer" ? "trainer"
@@ -77,6 +104,7 @@
             <img src="${c.img}" alt="" loading="lazy" decoding="async" width="245" height="342">
             <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg></span>
             <button type="button" class="info" aria-label="Detalles de ${escapeHtml(c.name)}"><span>i</span></button>
+            <a class="cm" target="_blank" rel="noopener" aria-label="Ver ${escapeHtml(c.name)} en Cardmarket">CM ↗</a>
           </div>
           <div class="meta"><span class="num">${c.number}/130</span><span class="price"></span></div>
           <div class="name">${escapeHtml(c.name)}</div>
@@ -93,10 +121,24 @@
     const owned = !!state.owned[c.id];
     card.classList.toggle("owned", owned);
     card.setAttribute("aria-pressed", owned);
+    const link = $(".cm", li);
+    const url = cardmarketUrl(c);
+    link.href = url;
+    link.title = `Cardmarket · inglés · ${state.settings.cond === "nm" ? "Near Mint o mejor" : "Excellent o mejor"}`;
     const pe = $(".price", li);
     const p = priceOf(c);
     pe.textContent = p ? (p.approx ? "~" : "") + fmt(p.value) : "";
     pe.classList.toggle("approx", !!(p && p.approx));
+  }
+
+  // Enlace a Cardmarket con filtros: inglés + condición mínima según NM/EX elegido
+  function cardmarketUrl(c, cond = state.settings.cond) {
+    const base = (state.prices.cards[c.id] || {}).url;
+    if (!base) return `https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=${encodeURIComponent(c.name + " Base Set 2")}`;
+    const u = new URL(base);
+    u.searchParams.set("language", state.prices.language || 1);
+    u.searchParams.set("minCondition", cond === "nm" ? 2 : 3);
+    return u.toString();
   }
 
   function visibleCards() {
@@ -219,7 +261,7 @@
       if (!id || e.button > 0) return;
       activeId = id; longFired = false; startX = e.clientX; startY = e.clientY;
       clearTimeout(timer);
-      if (e.target.closest(".info")) return;
+      if (e.target.closest(".info, .cm")) return;
       timer = setTimeout(() => { longFired = true; if (navigator.vibrate) navigator.vibrate(20); openSheet(id); }, LONG_PRESS_MS);
     });
     const cancel = () => clearTimeout(timer);
@@ -233,6 +275,7 @@
     grid.addEventListener("click", (e) => {
       const id = idFrom(e);
       if (!id) return;
+      if (e.target.closest(".cm")) { if (navigator.vibrate) navigator.vibrate(8); return; } // abre en pestaña nueva
       if (e.target.closest(".info")) { openSheet(id); return; }
       if (longFired) { longFired = false; return; }
       toggle(id);
@@ -247,13 +290,6 @@
 
   // ---------- Hoja de detalle ----------
   const sheet = $("#sheet");
-  function cmUrl(base, cond) {
-    if (!base) return null;
-    const u = new URL(base);
-    u.searchParams.set("language", state.prices.language || 1);
-    u.searchParams.set("minCondition", cond === "nm" ? 2 : 3);
-    return u.toString();
-  }
   function priceBox(label, key, data, fallback) {
     const active = state.settings.cond === key ? " active" : "";
     if (!data) {
@@ -273,7 +309,7 @@
     const owned = !!state.owned[id];
     const trend = cm.trend ?? api.trend;
     const searchUrl = `https://www.cardmarket.com/en/Pokemon/Products/Search?searchString=${encodeURIComponent(c.name + " Base Set 2")}`;
-    const nmUrl = cmUrl(p.url, "nm"), exUrl = cmUrl(p.url, "ex");
+    const nmUrl = p.url ? cardmarketUrl(c, "nm") : null, exUrl = p.url ? cardmarketUrl(c, "ex") : null;
     const ref = [
       ["Tendencia Cardmarket", trend],
       ["Media 30 días", cm.avg30 ?? api.avg30],
@@ -433,6 +469,7 @@
     setupGridGestures();
     renderPricesInfo();
     render();
+    renderSaveState();
     if ("serviceWorker" in navigator && location.protocol === "https:") {
       navigator.serviceWorker.register("sw.js").catch(() => {});
     }

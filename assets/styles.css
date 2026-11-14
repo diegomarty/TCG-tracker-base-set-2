@@ -153,6 +153,13 @@ main { padding: 8px 12px calc(90px + var(--safe-bottom)); max-width: 1100px; mar
   font: 700 13px/24px Georgia, serif; text-align: center; font-style: italic;
 }
 
+.cm {
+  position: absolute; right: 4px; bottom: 4px; min-width: 44px; height: 30px; padding: 0 8px;
+  display: grid; place-items: center; border-radius: 8px;
+  background: rgba(0,0,0,.62); color: #fff; font: 700 11px/1 system-ui, sans-serif; text-decoration: none;
+  letter-spacing: .02em; -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+}
+.cm:active { background: var(--accent); }
 .meta { display: flex; justify-content: space-between; align-items: baseline; gap: 4px; padding: 5px 2px 0; font-size: 12px; }
 .meta .num { color: var(--muted); font-variant-numeric: tabular-nums; }
 .meta .price { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -161,6 +168,7 @@ main { padding: 8px 12px calc(90px + var(--safe-bottom)); max-width: 1100px; mar
 
 .empty { text-align: center; padding: 40px 0; }
 .foot { font-size: 12px; text-align: center; margin-top: 30px; }
+.save-state { font-size: 12px; text-align: center; margin: 18px 0 0; }
 
 /* ---------- Hojas inferiores ---------- */
 dialog.sheet {

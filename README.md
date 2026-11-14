@@ -1,5 +1,7 @@
 # Base Set 2 · Tracker de colección
 
+🔗 **Web: https://diegomarty.github.io/TCG-tracker-base-set-2/**
+
 Web estática (GitHub Pages) para llevar la colección de **Pokémon Base Set 2** (130 cartas) desde el móvil, con precios de **Cardmarket** en **Near Mint** y **Excellent**.
 
 ## Uso
@@ -8,8 +10,9 @@ Web estática (GitHub Pages) para llevar la colección de **Pokémon Base Set 2*
 - **Mantén pulsado** o toca la **i** para ver la carta en grande con los precios NM y EX, tendencia y enlace a Cardmarket.
 - Arriba: progreso, valor de lo que tienes, lo que te falta y total del set. Botón **NM / EX** para elegir qué precio se usa.
 - Filtros: Todas / Faltan / Tengo, rareza, búsqueda por nombre o número, orden por número/precio/nombre.
+- Botón **«CM ↗»** en cada carta: abre la ficha de Cardmarket en una pestaña nueva con los filtros puestos (cartas en inglés y condición mínima NM o EX, según el botón NM / EX).
 - Menú **⋯**: copiar enlace con tu colección (para abrirla en otro dispositivo), exportar/importar JSON, cartas que faltan en gris, borrar.
-- La colección se guarda en el navegador (`localStorage`). Se puede «Añadir a pantalla de inicio» y funciona sin conexión.
+- La colección se guarda automáticamente en el navegador (`localStorage`, con copia de seguridad) en cada toque: al recargar o cerrar la página no se pierde nada. Abajo del todo verás «✓ Colección guardada en este dispositivo». Se guarda por navegador y dispositivo: para pasarla a otro, usa «Copiar enlace con mi colección» o exportar/importar. Se puede «Añadir a pantalla de inicio» y funciona sin conexión.
 
 ## Precios
 
